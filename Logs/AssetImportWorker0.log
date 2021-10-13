@@ -1,235 +1,131 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1237; Version 2004; 64bit' Language: 'en' Physical Memory: 16325 MB
+OS: 'Windows 10 Education; OS build 18363.1801; Version 1909; 64bit' Language: 'en' Physical Memory: 16328 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Editors\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-F:/Git/UntitledExplosionGame
+D:/Documents/GitHub/UntitledExplosionGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62637
-Successfully changed project path to: F:/Git/UntitledExplosionGame
-F:/Git/UntitledExplosionGame
+56429
+Successfully changed project path to: D:/Documents/GitHub/UntitledExplosionGame
+D:/Documents/GitHub/UntitledExplosionGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path D:/Unity Editors/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/Git/UntitledExplosionGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/GitHub/UntitledExplosionGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6079
+    VRAM:     8043 MB
+    Driver:   27.21.14.5751
 Initialize mono
-Mono path[0] = 'D:/Unity Editors/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Editors/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Editors/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Editors/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001110 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001686 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  0.702 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000653 seconds.
+Registered in 0.000369 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.581 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1908.
-Total: 6.536900 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.560900 ms  DeleteObjects: 4.761300 ms)
+Total: 1.833800 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.515400 ms  DeleteObjects: 0.129900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art
-  artifactKey: Guid(fcf3d45b66a7da6418e36bf3483acc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(fcf3d45b66a7da6418e36bf3483acc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c44e5d2acc4f0ca5fb967247000fd') in 0.016973 seconds
-  Import took 0.019051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
   path: Assets/UntitledExplosionGame
   artifactKey: Guid(575aa155df6a64343a0d563f34b3655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame using Guid(575aa155df6a64343a0d563f34b3655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3676ae22db30f13361e5df453906ed9') in 0.011772 seconds
-  Import took 0.013858 seconds .
+Start importing Assets/UntitledExplosionGame using Guid(575aa155df6a64343a0d563f34b3655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3676ae22db30f13361e5df453906ed9') in 0.003277 seconds
+  Import took 0.004984 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.790448 seconds.
-  path: Assets/UntitledExplosionGame/Resources
-  artifactKey: Guid(3e12836fc0bbc7a49a37e6a3afb29e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources using Guid(3e12836fc0bbc7a49a37e6a3afb29e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439ae9a0d74702f433475ea167243c18') in 0.012044 seconds
-  Import took 0.015509 seconds .
+  Time since last request: 22.734411 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs
+  artifactKey: Guid(4d384c740211c8b488e582a9ac040910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs using Guid(4d384c740211c8b488e582a9ac040910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0973a3ef70214974523441cfdce4235') in 0.001177 seconds
+  Import took 0.003050 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.022538 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models
-  artifactKey: Guid(94896d2adf0e6f24c871de6dd32a8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models using Guid(94896d2adf0e6f24c871de6dd32a8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465291018a3ee23733f918234b4895c3') in 0.010087 seconds
-  Import took 0.012173 seconds .
+  Time since last request: 7.926961 seconds.
+  path: Assets/UntitledExplosionGame/Models
+  artifactKey: Guid(b0939d23b4c9a0f45bd64b67a210f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models using Guid(b0939d23b4c9a0f45bd64b67a210f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbd412543e29ab43c19f24266be07c4') in 0.001242 seconds
+  Import took 0.003000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.629968 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Textures
-  artifactKey: Guid(a25b9fbc638145b42922f9f4bf1c98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Textures using Guid(a25b9fbc638145b42922f9f4bf1c98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9dd9df9f37e3f0dce43a0dbaaa9ffb') in 0.010111 seconds
-  Import took 0.012406 seconds .
+  Time since last request: 8.011926 seconds.
+  path: Assets/UntitledExplosionGame/Models/base_01.fbx
+  artifactKey: Guid(5dea41fd811364940a6075bb7f9a1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/base_01.fbx using Guid(5dea41fd811364940a6075bb7f9a1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4289bc69470bea4998874c468fb5ed8') in 0.242234 seconds
+  Import took 0.244563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Textures
-  artifactKey: Guid(a25b9fbc638145b42922f9f4bf1c98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Textures using Guid(a25b9fbc638145b42922f9f4bf1c98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9dd9df9f37e3f0dce43a0dbaaa9ffb') in 0.005677 seconds
-  Import took 0.007830 seconds .
+  Time since last request: 8.830934 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd74514a9aa1e44b4176be4e790f108c') in 0.004866 seconds
+  Import took 0.006683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.406431 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Sprites
-  artifactKey: Guid(61043455c6be73b4390640355905372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Sprites using Guid(61043455c6be73b4390640355905372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb96bc10c1c3c00f3811b6c00c37d61') in 0.010989 seconds
-  Import took 0.013030 seconds .
+  Time since last request: 0.011900 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd74514a9aa1e44b4176be4e790f108c') in 0.001956 seconds
+  Import took 0.003667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000852 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Sprites
-  artifactKey: Guid(61043455c6be73b4390640355905372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Sprites using Guid(61043455c6be73b4390640355905372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb96bc10c1c3c00f3811b6c00c37d61') in 0.006031 seconds
-  Import took 0.008106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.857250 seconds.
-  path: Assets/UntitledExplosionGame/Scenes
-  artifactKey: Guid(071c2bde312a7604ab0c2bc233e273c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes using Guid(071c2bde312a7604ab0c2bc233e273c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f51c8a9235ad6ea7111cad8d6a48cd') in 0.010098 seconds
-  Import took 0.012311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.318544 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/Level.unity
-  artifactKey: Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/Level.unity using Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4c054c728a1e2c6588625dc1b7f0a') in 0.011730 seconds
-  Import took 0.013794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/Level.unity
-  artifactKey: Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/Level.unity using Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4c054c728a1e2c6588625dc1b7f0a') in 0.006047 seconds
-  Import took 0.008091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.622597 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/MainMenu.unity
-  artifactKey: Guid(6c02037bdb0a40544b5a37312c2076b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/MainMenu.unity using Guid(6c02037bdb0a40544b5a37312c2076b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeb1b3678b4b6f42c33ff189ebbeb97') in 0.012197 seconds
-  Import took 0.014302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.798019 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ef3877ea600cbd4c11054afdc4dd7') in 0.010862 seconds
-  Import took 0.012874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.292640 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity
-  artifactKey: Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity using Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12ae3642f2c864cb48b7867e7f9a93e') in 0.010208 seconds
-  Import took 0.012197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2974.190905 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Base.fbx
-  artifactKey: Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Base.fbx using Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468cfc7c852f80372c86c2b168355ab') in 0.300328 seconds
-  Import took 0.305710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.072565 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Circle.002.prefab
-  artifactKey: Guid(c531c2db0efd13141b5bf8fe9943947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Circle.002.prefab using Guid(c531c2db0efd13141b5bf8fe9943947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a96bf27a526dd674345d6f65458f46') in 0.026802 seconds
-  Import took 0.030054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.159821 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Greyboxing
-  artifactKey: Guid(b8e0ed7fa0444b842b1f8ac2165de4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Greyboxing using Guid(b8e0ed7fa0444b842b1f8ac2165de4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3409f026be1bc61cd9bbdaacf21c24') in 0.010438 seconds
-  Import took 0.012654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.228362 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base.fbx
-  artifactKey: Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base.fbx using Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454e895952c47827db04f3930f08291f') in 0.025766 seconds
-  Import took 0.028394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.741904 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base 1.fbx
-  artifactKey: Guid(50adae3f89cc34247a545caa7ef61de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base 1.fbx using Guid(50adae3f89cc34247a545caa7ef61de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f058bc945bb38889e7562f21e6cd9179') in 0.022744 seconds
-  Import took 0.025323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3492.363340 seconds.
-  path: Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base.fbx
-  artifactKey: Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Resources/Models/Greyboxing/Base.fbx using Guid(1bb1095838709b345ac1ad48039c237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f852d6af16766e305e780088ed2d67') in 0.224345 seconds
-  Import took 0.272567 seconds .
+  Time since last request: 6.602782 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1369a48dfeeb8e467e9a5d531e321f') in 0.004994 seconds
+  Import took 0.006785 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
