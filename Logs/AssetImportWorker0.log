@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 18363.1801; Version 1909; 64bit' Language: 'en' Physical Memory: 16328 MB
+OS: 'Windows 10 Education; OS build 18363.1854; Version 1909; 64bit' Language: 'en' Physical Memory: 16328 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Documents/GitHub/UntitledExplosionGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58993
+62431
 Successfully changed project path to: D:/Documents/GitHub/UntitledExplosionGame
 D:/Documents/GitHub/UntitledExplosionGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,56 +35,121 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001565 seconds.
+Registered in 0.001488 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.677 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000384 seconds.
+Registered in 0.000375 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  0.574 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
+System memory in use before: 73.0 MB.
 System memory in use after: 73.0 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1908.
-Total: 1.972600 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.157300 ms MarkObjects: 1.554100 ms  DeleteObjects: 0.119400 ms)
+Total: 1.951200 ms (FindLiveObjects: 0.180600 ms CreateObjectMapping: 0.138900 ms MarkObjects: 1.511200 ms  DeleteObjects: 0.120000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/UntitledExplosionGame/Prefabs/Cylinder.prefab
-  artifactKey: Guid(ba2a32a5ae59b7f43bef184e07641628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Cylinder.prefab using Guid(ba2a32a5ae59b7f43bef184e07641628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e034d808670755720db2ab43e546450b') in 0.062152 seconds
-  Import took 0.064318 seconds .
+  path: Assets/UntitledExplosionGame/Prefabs/base_02.fbx
+  artifactKey: Guid(cc79bf90e0276494cb5802b26e8db46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base_02.fbx using Guid(cc79bf90e0276494cb5802b26e8db46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f5ae26ae3cf12bed8305509f6c7cc') in 0.091643 seconds
+  Import took 0.094127 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.087963 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/pillar.prefab
-  artifactKey: Guid(ba2a32a5ae59b7f43bef184e07641628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/pillar.prefab using Guid(ba2a32a5ae59b7f43bef184e07641628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61221974a8baa73b50c0f6af02c026c') in 0.007913 seconds
-  Import took 0.009728 seconds .
+  Time since last request: 102.269634 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base_02.prefab
+  artifactKey: Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base_02.prefab using Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c6c9f10d49fb7d35a32b09b08301ce') in 0.010327 seconds
+  Import took 0.018398 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005010 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base_02.prefab
+  artifactKey: Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base_02.prefab using Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c6c9f10d49fb7d35a32b09b08301ce') in 0.007705 seconds
+  Import took 0.011839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.523379 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb76a62fb325cc473b6cacc962c1e2a') in 0.005735 seconds
+  Import took 0.024892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 879.703802 seconds.
+  path: Assets/UntitledExplosionGame/Models/base_03.fbx
+  artifactKey: Guid(f6edd8597833b6c4ea1685fb7d8eb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/base_03.fbx using Guid(f6edd8597833b6c4ea1685fb7d8eb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee01b33c7df9d1a3f75e449de01715d') in 0.010822 seconds
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.805664 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(91e9f4b23920f924abbda39540e26cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea43e706b96c1c5f868fe0da7bf7c371') in 0.005943 seconds
+  Import took 0.007814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.953147 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base_03.prefab
+  artifactKey: Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base_03.prefab using Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580112f58df0f7e91fc8fd195a69ac4') in 0.004744 seconds
+  Import took 0.007035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007176 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base_03.prefab
+  artifactKey: Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base_03.prefab using Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580112f58df0f7e91fc8fd195a69ac4') in 0.006416 seconds
+  Import took 0.008979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.198708 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f796e71855985acb5f0a17b9b35679e') in 0.005171 seconds
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006338 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(aef053eb96ad07a4da19d1084d23ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f796e71855985acb5f0a17b9b35679e') in 0.020348 seconds
+  Import took 0.022221 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
