@@ -156,6 +156,7 @@ MonoBehaviour:
   power: 25
   radius: 10
   upForce: 6
+  countdownTime: 5
 --- !u!4 &463680146
 Transform:
   m_ObjectHideFlags: 0
@@ -164,7 +165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463680144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.32136, y: 64.44653, z: 16.588764}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
