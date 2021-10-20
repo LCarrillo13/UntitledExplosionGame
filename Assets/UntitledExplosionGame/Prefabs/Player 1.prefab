@@ -97,6 +97,9 @@ GameObject:
   - component: {fileID: 3948027202582016015}
   - component: {fileID: 6523168614045558572}
   - component: {fileID: 5396215498775497247}
+  - component: {fileID: 4220875076007185932}
+  - component: {fileID: 2379099049883225132}
+  - component: {fileID: 2570193148614563571}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -194,10 +197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95901522cbf5bf74c8540d552397343a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grounded: 0
   rb: {fileID: 5396215498775497247}
   maxJumps: 4
-  moveSpeed: 0
   jumpForce: 100
 --- !u!54 &5396215498775497247
 Rigidbody:
@@ -215,3 +216,49 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!114 &4220875076007185932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578316946323869340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938cb43d5dd205445a3729036192d4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+--- !u!114 &2379099049883225132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578316946323869340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 3d37c237277fffd4586be7a42559d191
+  hasSpawned: 0
+--- !u!114 &2570193148614563571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578316946323869340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2963b0cbdd8446b46b63bab27b144753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  enemyToSpawn: {fileID: 0}
+  cubeColor: {r: 0, g: 0, b: 0, a: 0}
