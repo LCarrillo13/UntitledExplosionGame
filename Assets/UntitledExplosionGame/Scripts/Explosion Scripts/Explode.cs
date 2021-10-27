@@ -22,13 +22,12 @@ namespace GameScripts.ExplosionScripts
         {
             // IMPORTANT: THIS DEFINES WHAT TRIGGERS THE EXPLOSION
             // Keybind to detonate explosion after certain number of seconds, specified by countdownTime
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
+            // test
                 if(bomb == enabled)
                 {
                     Invoke(nameof(Detonate), countdownTime);
                 }
-            }
+            
         }
 
         /// <summary>
