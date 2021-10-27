@@ -55,7 +55,7 @@ namespace NetworkGame.Networking
             // First determine if this function is being run on the local player
             if(isLocalPlayer)
             {
-                if(Input.GetKeyDown(KeyCode.Space))
+                if(Input.GetKeyDown(KeyCode.R))
                 {
                     // Run a function that tells every client to change the colour of this gameObject
                     CmdRandomColor();

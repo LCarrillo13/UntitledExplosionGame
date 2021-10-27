@@ -20,6 +20,7 @@ namespace GameScripts.ExplosionScripts
         // Update is called once per frame
         void FixedUpdate()
         {
+            // IMPORTANT: THIS DEFINES WHAT TRIGGERS THE EXPLOSION
             // Keybind to detonate explosion after certain number of seconds, specified by countdownTime
             if(Input.GetKeyDown(KeyCode.Space))
             {
