@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16122 MB
+OS: 'Windows 10 Home; OS build 22000.258; Version 2009; 64bit' Language: 'en' Physical Memory: 16122 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/piehu/Documents/GitHub/UntitledExplosionGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59445
+60946
 Successfully changed project path to: C:/Users/piehu/Documents/GitHub/UntitledExplosionGame
 C:/Users/piehu/Documents/GitHub/UntitledExplosionGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1434 +35,66 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002962 seconds.
+Registered in 0.003428 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.294 seconds
+- Completed reload, in  3.872 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003158 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.5 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2219.
-Total: 2.689100 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.174500 ms  DeleteObjects: 0.220700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs
-  artifactKey: Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs using Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f57ca3f843b7a02f508f745fedc260d') in 0.029356 seconds
-  Import took 0.033773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.512844 seconds.
-  path: Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs
-  artifactKey: Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs using Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb700cd20cffff99cf244de031e933db') in 0.007715 seconds
-  Import took 0.014441 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006737 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2221.
-Total: 3.076800 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.663200 ms  DeleteObjects: 0.142200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1069.036297 seconds.
-  path: Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs
-  artifactKey: Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs using Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe8a70a7c623765a3a6aadb760703c3') in 0.010066 seconds
-  Import took 0.014731 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005087 seconds.
+Registered in 0.006314 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.520 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 2.489500 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.070600 ms MarkObjects: 2.122400 ms  DeleteObjects: 0.112800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 295.362108 seconds.
-  path: Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs
-  artifactKey: Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs using Guid(148d460903c7abb40a4cc8cb3fd35305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6621074afd0c1a8f5417f7e43eb6ef86') in 0.010441 seconds
-  Import took 0.016656 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
-System memory in use after: 83.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2225.
-Total: 4.314800 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.142000 ms MarkObjects: 3.643000 ms  DeleteObjects: 0.142500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.048932 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/Level.unity
-  artifactKey: Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/Level.unity using Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8597257e3039ec753ad5374ecf281e44') in 0.012255 seconds
-  Import took 0.015907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.492197 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity
-  artifactKey: Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity using Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec73029130aa99a1b787dd1434e32fc') in 0.009304 seconds
-  Import took 0.013278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.383370 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c8afa0fdd150437f5775a00709590b') in 0.088344 seconds
-  Import took 0.091729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.212024 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d4e1f4143513bccb7653c308a3e11b') in 0.016309 seconds
-  Import took 0.020743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.373438 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4584b75dd9a5300332a8b48a3ffd223e') in 0.011055 seconds
-  Import took 0.015399 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002098 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2236.
-Total: 4.931800 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.148000 ms MarkObjects: 4.261000 ms  DeleteObjects: 0.153100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.792926 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab
-  artifactKey: Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab using Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee36d864fd09c880e75bb9dc60537b8') in 0.038981 seconds
-  Import took 0.044318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004612 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab
-  artifactKey: Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab using Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee36d864fd09c880e75bb9dc60537b8') in 0.006537 seconds
-  Import took 0.010528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.865620 seconds.
-  path: Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity
-  artifactKey: Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity using Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934327ee145566c4148463f41e52adfb') in 0.004359 seconds
-  Import took 0.007619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.175110 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab
-  artifactKey: Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab using Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66287cd3dd3be5fc88c61f815fef872') in 0.006380 seconds
-  Import took 0.012550 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003023 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2238.
-Total: 2.539900 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.167400 ms  DeleteObjects: 0.105000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.549532 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1e44409ca279c3210a107b2c63af1e') in 0.078423 seconds
-  Import took 0.083922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.867660 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b19863137a0de89ac1508a7191dd0bc') in 0.011567 seconds
-  Import took 0.016569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034330 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b19863137a0de89ac1508a7191dd0bc') in 0.012530 seconds
-  Import took 0.017909 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 2.811400 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.411700 ms  DeleteObjects: 0.112300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006419 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.508 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2243.
-Total: 5.746100 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.112200 ms MarkObjects: 5.006800 ms  DeleteObjects: 0.328000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 316.337624 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e87532affef42e4c613e5b09313430') in 0.075745 seconds
-  Import took 0.080271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004892 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e87532affef42e4c613e5b09313430') in 0.009548 seconds
-  Import took 0.013500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.736750 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f92f9dae38527c17870d386a99f0417') in 0.012104 seconds
-  Import took 0.016250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.067511 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a3725be64000e1ada3c830c03e6e49') in 0.012768 seconds
-  Import took 0.016636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.003377 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5547bdb82679a77cd095c8cc5881b27f') in 0.011530 seconds
-  Import took 0.015928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.207768 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3d5132f95adbb56a43aaf41c48a783') in 0.023906 seconds
-  Import took 0.027585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.984175 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59307bfa1f38d80fe80f02d226a4d7c') in 0.011071 seconds
-  Import took 0.014660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.330126 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45786d55f6535aa960872d37b3d488c') in 0.015832 seconds
-  Import took 0.019941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.466360 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dd403605af781ab058577f62eb4576') in 0.017439 seconds
-  Import took 0.021416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.985235 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6b09906e86a45be4c767c5098cf6ad') in 0.015002 seconds
-  Import took 0.019376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.804766 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76171f3e84a7ecda463001d2e703d42d') in 0.017964 seconds
-  Import took 0.021962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.383842 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb535c78911d61348106cb16bf3b462') in 0.016877 seconds
-  Import took 0.020510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74985b4e576962b098d1d18a636b7ef2') in 0.019993 seconds
-  Import took 0.024186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.710067 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a0d2cb21bd2d105d935b651672d03a') in 0.017050 seconds
-  Import took 0.021768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6493394ff63a879a111364fd0de2e46') in 0.017669 seconds
-  Import took 0.022196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.020049 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8130ddf8f2705839181444175235d8') in 0.015690 seconds
-  Import took 0.019351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.839819 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d554c2adefe3aeba50bdcb13825fa90') in 0.014894 seconds
-  Import took 0.018531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.970365 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d9960b996837f8426df32c4baa2cb7') in 0.013964 seconds
-  Import took 0.017868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028773 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d9960b996837f8426df32c4baa2cb7') in 0.010452 seconds
-  Import took 0.014031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6fcaec5e18faab417b541ab1e8f721') in 0.010016 seconds
-  Import took 0.013957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037857 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6fcaec5e18faab417b541ab1e8f721') in 0.009607 seconds
-  Import took 0.012920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.447141 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6369e75281525b3531eabb116fdf6351') in 0.009480 seconds
-  Import took 0.013239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034801 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6369e75281525b3531eabb116fdf6351') in 0.010317 seconds
-  Import took 0.014547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f1f9e0557b35decdd6ed40b2c37bf') in 0.010541 seconds
-  Import took 0.014407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037923 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f1f9e0557b35decdd6ed40b2c37bf') in 0.012305 seconds
-  Import took 0.016376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.126662 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e300cd16dfc822510b27080a131b7b') in 0.010423 seconds
-  Import took 0.013965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035276 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e300cd16dfc822510b27080a131b7b') in 0.010018 seconds
-  Import took 0.013962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afe1fa358865389eed601cb75c78dd') in 0.011361 seconds
-  Import took 0.015238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039794 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afe1fa358865389eed601cb75c78dd') in 0.012228 seconds
-  Import took 0.016688 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002237 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.4 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2247.
-Total: 3.064700 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.609600 ms  DeleteObjects: 0.099600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.618568 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d679e5f72e7eda7d33afd2e51fef82') in 0.070753 seconds
-  Import took 0.074922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503d008b1af87b83f0c4763d3a189755') in 0.025166 seconds
-  Import took 0.029333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.339484 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ced645bb977f0eeb9e745394a9d970') in 0.011821 seconds
-  Import took 0.016131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a12417e083f67470f6602361a109452') in 0.011730 seconds
-  Import took 0.015048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.687843 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93427dc890e93e4b3cf6a8b953cb9dfd') in 0.017566 seconds
-  Import took 0.022097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad22f0ae29fc836b674b0008a4f758') in 0.017835 seconds
-  Import took 0.022909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.352354 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b55f3299bfd3971a3fa15ca16447c') in 0.017412 seconds
-  Import took 0.021957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d634b38aab12b14e796f77f1ac781f3') in 0.017517 seconds
-  Import took 0.023180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.713277 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13f4c91e8b3abb706aff82e9cd39abf') in 0.015646 seconds
-  Import took 0.019532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183b1038e77342513832a2c17f51c1f3') in 0.015384 seconds
-  Import took 0.019479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.870186 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dc63fdd3a29c6fa351d704cf72497b') in 0.015896 seconds
-  Import took 0.020021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedc194cb88f57cfd1215e1aba1671c6') in 0.018191 seconds
-  Import took 0.023045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.994318 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed8478afd68cf4866596490e07a695a') in 0.016101 seconds
-  Import took 0.020085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e857e44370b3ecc4f0e5008fb2e14d55') in 0.015011 seconds
-  Import took 0.018693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.422010 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f15ee5702625e6a5c82fcd0aa5e1dc3') in 0.016992 seconds
-  Import took 0.021103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce8b3d32c5eddddeaa55597a729798e') in 0.017317 seconds
-  Import took 0.021370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.040595 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189eb30d10ae74065ef01c7e36761af') in 0.017835 seconds
-  Import took 0.023326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849493f0c173555313840fcaa9b7c06c') in 0.023359 seconds
-  Import took 0.028150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.265373 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff27f2e0026fa11a65d11e59002cbd16') in 0.017403 seconds
-  Import took 0.022089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef53b11320d53bce4ab1bc2dab7a8edd') in 0.017950 seconds
-  Import took 0.022797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.414427 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec63b0993fdb148d440ef108f22a34ea') in 0.015723 seconds
-  Import took 0.019457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38597156baa2001c7b8ed42131c219f6') in 0.016771 seconds
-  Import took 0.020964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786663 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac62a73a5995ccd88b497e4993eb493') in 0.018082 seconds
-  Import took 0.022272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ef14eaeee6ef87454e4fcf1cbd2d4d') in 0.028391 seconds
-  Import took 0.035287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.808292 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4323eea9a7eeef87f374e213773a831c') in 0.017833 seconds
-  Import took 0.023067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48f5939c7561912761c743d3e225ed') in 0.017912 seconds
-  Import took 0.022391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632691 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1942db42235118df8441020fe9388f17') in 0.016498 seconds
-  Import took 0.020268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d88daa76b079fb9b8d4d835420e512e') in 0.015333 seconds
-  Import took 0.018912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.659134 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd27b90c49cccaf4223b37ff7cab4e1') in 0.016737 seconds
-  Import took 0.021275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50431be7f3229fded19285dfcc94120') in 0.015218 seconds
-  Import took 0.019369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.611569 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49aead4205f88bfc008d97f722d2232e') in 0.016211 seconds
-  Import took 0.021283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4955043fd8e8d27b595d985fda5fcdc1') in 0.016726 seconds
-  Import took 0.020372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.099429 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae4e72d98528ec8c881ff087e59d96e') in 0.025834 seconds
-  Import took 0.032779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757fbd4da64231eea9382d7a5e29d4fa') in 0.025614 seconds
-  Import took 0.032616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.201294 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad046b95de29d69cb42f68f0cc561a8') in 0.014978 seconds
-  Import took 0.019353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919fec22b2a3cf7d0e19ebb92c105089') in 0.016505 seconds
-  Import took 0.020437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.178723 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146a55a9ceb95a50a72898eaa3992ecb') in 0.017993 seconds
-  Import took 0.022561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526940dc78de6dc918237c0a9614c257') in 0.018615 seconds
-  Import took 0.023590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.009124 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5cd9a907e314b64d4d01e3d0d4b8e') in 0.015891 seconds
-  Import took 0.019496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef27172f3a5a3ec7a993c3a022c6c90') in 0.015377 seconds
-  Import took 0.028327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.505134 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6ec6f6bd1af69a2cf6977feb68f40') in 0.019356 seconds
-  Import took 0.026396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e876afe780cf2faff0f727b62e69d4d6') in 0.026203 seconds
-  Import took 0.035114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.429562 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4bf4d25f59cbec6ee1dc76188ab745') in 0.015941 seconds
-  Import took 0.020001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce538abc67d0e9d69b37c57ab6dbed6') in 0.018582 seconds
-  Import took 0.023439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.999935 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2346afd1db02beabbb35f0f99da37932') in 0.016330 seconds
-  Import took 0.020020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd7e0adef22aca09fbbcc70deac8f51') in 0.017652 seconds
-  Import took 0.021247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.419077 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eb65cc4f70b66aa86998a5e0517e44') in 0.016790 seconds
-  Import took 0.021743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa0bad6c4d28b3cd2f64604d208b12e') in 0.014182 seconds
-  Import took 0.018018 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004105 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 2.221800 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.902400 ms  DeleteObjects: 0.087000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002281 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.4 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2252.
-Total: 2.279100 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.830200 ms  DeleteObjects: 0.089200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003969 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 2.069900 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.776000 ms  DeleteObjects: 0.081300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003338 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 3.135800 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.710000 ms  DeleteObjects: 0.120300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 488.790470 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8487f8a0398fc963bea0c7b374010b95') in 0.057778 seconds
-  Import took 0.062101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e5c3ec5f415740fc4b63a718705ef4') in 0.027073 seconds
-  Import took 0.030714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.006787 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25cfcf18e58f121ffe3d1bb2bd0c741') in 0.011831 seconds
-  Import took 0.015081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027285 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25cfcf18e58f121ffe3d1bb2bd0c741') in 0.008961 seconds
-  Import took 0.012611 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003651 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 2.927900 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.424000 ms  DeleteObjects: 0.135200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004635 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.4 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 3.029900 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.128000 ms MarkObjects: 2.510900 ms  DeleteObjects: 0.106300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005157 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2263.
-Total: 2.820500 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.425000 ms  DeleteObjects: 0.110100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 2.528000 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.164000 ms  DeleteObjects: 0.103300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 637.869193 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b635e60ffd083fbac77dc497ff4a3c51') in 0.086178 seconds
-  Import took 0.091608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.354708 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3469b0fb1d5de74f5ced2eedeea18aee') in 0.011012 seconds
-  Import took 0.015907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.298719 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
-  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4b8c62747302714f68d1ef11268930') in 0.010571 seconds
-  Import took 0.014463 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003509 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.016 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 3.709200 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.189500 ms MarkObjects: 2.905500 ms  DeleteObjects: 0.133600 ms)
-
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.6 MB.
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 4.121200 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.145600 ms MarkObjects: 3.498000 ms  DeleteObjects: 0.110300 ms)
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 6.039500 ms (FindLiveObjects: 1.090500 ms CreateObjectMapping: 0.222500 ms MarkObjects: 4.376300 ms  DeleteObjects: 0.325900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.914810 seconds.
   path: Assets/UntitledExplosionGame/Scenes/Level.unity
   artifactKey: Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Scenes/Level.unity using Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4d14358175b62fbbe3193f0889c70c') in 0.009267 seconds
-  Import took 0.012589 seconds .
+Start importing Assets/UntitledExplosionGame/Scenes/Level.unity using Guid(4a32e28115a1a9b4d804b8795a913726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e66cd876715a86b9084bb64ce8376') in 0.137651 seconds
+  Import took 0.142512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.271507 seconds.
+  path: Assets/UntitledExplosionGame/Scenes/MainMenu.unity
+  artifactKey: Guid(6c02037bdb0a40544b5a37312c2076b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scenes/MainMenu.unity using Guid(6c02037bdb0a40544b5a37312c2076b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd445e2aff93d9b9194551c51abe4fd4f') in 0.052901 seconds
+  Import took 0.057965 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003444 seconds.
+Registered in 0.003377 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1477,24 +109,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
+- Completed reload, in  1.027 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 3.081300 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.597800 ms  DeleteObjects: 0.136100 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 3.006600 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.575600 ms  DeleteObjects: 0.143200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.619353 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9a09d2d9509b9f2b3848b497f6ede') in 0.111631 seconds
+  Import took 0.115554 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004891 seconds.
+Registered in 0.001826 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1509,37 +149,85 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2224.
+Total: 2.314900 ms (FindLiveObjects: 0.207500 ms CreateObjectMapping: 0.077300 ms MarkObjects: 1.922900 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.688500 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.116600 ms MarkObjects: 2.142000 ms  DeleteObjects: 0.098000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 393.410616 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5927ea0d5624a4e69d6dbf924c25730') in 0.049695 seconds
-  Import took 0.053832 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.838500 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.408700 ms  DeleteObjects: 0.144200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067c6bc42ebde9abbcf120c44e636b45') in 0.019367 seconds
-  Import took 0.022833 seconds .
+  Time since last request: 297.351166 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2fb5853821b4b50719ed2167703cbe') in 0.069491 seconds
+  Import took 0.072779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002150 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2fb5853821b4b50719ed2167703cbe') in 0.069657 seconds
+  Import took 0.072811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.505374 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22510930aa968e815bf1366ea1327974') in 0.067182 seconds
+  Import took 0.071877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067719 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22510930aa968e815bf1366ea1327974') in 0.052409 seconds
+  Import took 0.056568 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003767 seconds.
+Registered in 0.004594 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
@@ -1557,104 +245,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
-Total: 2.840600 ms (FindLiveObjects: 0.204300 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.419400 ms  DeleteObjects: 0.136100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.153428 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4aec01da534f2b0c509a6d480883c2') in 0.080833 seconds
-  Import took 0.085630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d03d4ca162e1343f3daf1f7d46a3aa') in 0.027368 seconds
-  Import took 0.031612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.508758 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c2684288b0199def553ce8491dc639') in 0.014378 seconds
-  Import took 0.018329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69456450da99fc8cee9cb387cafa6e13') in 0.012102 seconds
-  Import took 0.017299 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.880 seconds
+- Completed reload, in  1.516 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
-Total: 2.333600 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.933400 ms  DeleteObjects: 0.141500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.496419 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
-  artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1ddef271e3285f3b052e7a81f7fea3') in 0.056174 seconds
-  Import took 0.059468 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2228.
+Total: 3.974000 ms (FindLiveObjects: 0.409700 ms CreateObjectMapping: 0.190900 ms MarkObjects: 3.229700 ms  DeleteObjects: 0.140600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
-  artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1fb2f334d88e24713eba914dd1ffbe') in 0.017094 seconds
-  Import took 0.020354 seconds .
+  Time since last request: 30.223661 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a966987b7cc52d30e36ddbe9bea78b') in 0.078457 seconds
+  Import took 0.084874 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003209 seconds.
+Registered in 0.003525 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1669,31 +285,111 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
+- Completed reload, in  2.185 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
-Total: 2.778900 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.364400 ms  DeleteObjects: 0.123400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2230.
+Total: 3.160300 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.528900 ms  DeleteObjects: 0.114900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.195347 seconds.
+  Time since last request: 459.642828 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563639ebfd7fa35fae61eaafa0fd9ccd') in 0.152132 seconds
+  Import took 0.160564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051220 seconds.
+  path: Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs
+  artifactKey: Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs using Guid(87c3dc9da2941f144bbbf034e01b8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563639ebfd7fa35fae61eaafa0fd9ccd') in 0.246023 seconds
+  Import took 0.249628 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 3.024400 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.662200 ms  DeleteObjects: 0.133000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.575275 seconds.
+  path: Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity
+  artifactKey: Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity using Guid(f9f00b9d690a2f64186a34c4b00d8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918f0482f1be0a3875f0013d9a99242') in 0.523413 seconds
+  Import took 0.527261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.242885 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/base.prefab
+  artifactKey: Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/base.prefab using Guid(88f086befccb1f743bfe52724a0e0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de0f1c0b9dab209959483e2934e31fd') in 0.121453 seconds
+  Import took 0.125249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/Bomb.prefab
+  artifactKey: Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/Bomb.prefab using Guid(9d894d536fdf0bb48843a0b0e199f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d2c2663e9419c9e3dddd7044ab61fc') in 0.123858 seconds
+  Import took 0.126616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
   path: Assets/UntitledExplosionGame/Prefabs/Gun.prefab
   artifactKey: Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34320c92168726c545ea19671650b240') in 0.073938 seconds
-  Import took 0.078373 seconds .
+Start importing Assets/UntitledExplosionGame/Prefabs/Gun.prefab using Guid(ad493b020d648b94db12609edbf3d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e70031f6311403c0c092b50c789aa94') in 0.111534 seconds
+  Import took 0.114582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
+  Time since last request: 0.000259 seconds.
   path: Assets/UntitledExplosionGame/Prefabs/Player 1.prefab
   artifactKey: Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31c199b010208f5407703ab85a6c70b') in 0.023821 seconds
-  Import took 0.028056 seconds .
+Start importing Assets/UntitledExplosionGame/Prefabs/Player 1.prefab using Guid(3d37c237277fffd4586be7a42559d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a83f26ba3673cb3791c7e458998a0a') in 0.129819 seconds
+  Import took 0.133355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab
+  artifactKey: Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Prefabs/ExplosionManager.prefab using Guid(81f5b17ead8267741ac6f0fbaad70b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c15f90dd0bdf3d8168d0e04c0c1400') in 0.084123 seconds
+  Import took 0.087558 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
