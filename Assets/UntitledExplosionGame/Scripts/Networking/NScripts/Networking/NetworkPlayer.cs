@@ -1,6 +1,7 @@
 using Mirror;
 
 using UnityEngine;
+using GameScripts.PlayerScripts;
 
 namespace NetworkGame.Networking
 {
@@ -11,6 +12,7 @@ namespace NetworkGame.Networking
         [SyncVar(hook = nameof(OnSetCubeColor)), SerializeField] private Color cubeColor;
 
         private readonly SyncList<float> syncedFloats = new SyncList<float>();
+        private Health pHealth;
 
         // SyncVarHooks get called in the order the VARIABLES are defined not the functions
         // [SyncVar(hook = "SetX")] public float x;
@@ -65,6 +67,7 @@ namespace NetworkGame.Networking
                 {
                     CmdSpawnEnemy();
                 }
+                
             }
         }
 

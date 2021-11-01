@@ -112,9 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 7775605636186021039, guid: 9d894d536fdf0bb48843a0b0e199f975, type: 3}
   bomb: {fileID: 0}
-  myForce: 5
-  ammo: 15
-  ammoMax: 15
+  myForce: 25
+  maxAmmo: 15
 --- !u!54 &283520137483437788
 Rigidbody:
   m_ObjectHideFlags: 0
