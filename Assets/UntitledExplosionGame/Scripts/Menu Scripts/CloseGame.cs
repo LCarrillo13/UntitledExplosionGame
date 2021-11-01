@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CloseGame : MonoBehaviour
+namespace GameScripts.MenuScripts
 {
-	public void Close()
+	public class CloseGame : MonoBehaviour
 	{
-		Application.Quit();
-	#if UNITY_EDITOR
-		UnityEditor.EditorApplication.isPlaying = false;
-	#endif
+		public void Close()
+		{
+			Application.Quit();
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false;
+		#endif
+		}
 	}
 }

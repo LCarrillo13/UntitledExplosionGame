@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Unity.Collections;
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace GameScripts.PlayerScripts
 {
@@ -19,10 +20,13 @@ namespace GameScripts.PlayerScripts
         [SerializeField] private float myForce = 25;
         [ReadOnly] private int tempAmmo = 15;
         [SerializeField] private int maxAmmo = 15;
+    // HUD Ammo Text
+        [SerializeField] private Text ammoText;
 
         private void Start()
         {
             thisTransform = transform;
+            ammoText.text = tempAmmo.ToString();
         }
 
         private void Update()
@@ -50,6 +54,11 @@ namespace GameScripts.PlayerScripts
                 Destroy(bomb, 6);
                 Debug.Log("shot");
                 tempAmmo--;
+                ammoText.text = tempAmmo.ToString();
+            }
+            else
+            {
+                Debug.Log("Out of Ammo!");
             }
         }
 
@@ -60,6 +69,7 @@ namespace GameScripts.PlayerScripts
         {
             // Add Reload animation, delay time
             tempAmmo = maxAmmo;
+            ammoText.text = tempAmmo.ToString();
         }
     }
 }
