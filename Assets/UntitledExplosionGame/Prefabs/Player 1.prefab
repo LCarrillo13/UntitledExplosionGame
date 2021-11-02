@@ -355,11 +355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4789038594891046486, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4789038594891046486, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.42
+      value: 1.235
       objectReference: {fileID: 0}
     - target: {fileID: 4789038594891046486, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -393,6 +393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 6687048138483867771, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: c8ab05f95958fdd44ae62eb2f9c750a8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
 --- !u!4 &2440248356025696945 stripped
