@@ -1,4 +1,7 @@
 using System;
+using Mirror;
+
+using NetworkGame.Networking;
 
 using UnityEngine;
 
@@ -8,6 +11,7 @@ namespace NetworkGame
 	{
 		[SerializeField] private float speed = 3f;
 		[SerializeField] private float sprint = 6f;
+		private CustomNetworkManager nManager;
 
 		// Update is called once per frame
 		private void Update()

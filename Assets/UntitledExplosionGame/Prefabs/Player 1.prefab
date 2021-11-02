@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 2221370088050973946}
   - component: {fileID: 2754726288954851687}
   - component: {fileID: 4128955321169802706}
+  - component: {fileID: -4552999339509381108}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -338,6 +339,26 @@ MonoBehaviour:
   syncAngularVelocity: 1
   clearAngularVelocity: 0
   angularVelocitySensitivity: 0.1
+--- !u!114 &-4552999339509381108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578316946323869340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148d460903c7abb40a4cc8cb3fd35305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  bullet: {fileID: 7775605636186021039, guid: 9d894d536fdf0bb48843a0b0e199f975, type: 3}
+  gun: {fileID: 5076380935197075260, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
+  bomb: {fileID: 0}
+  myForce: 25
+  maxAmmo: 15
+  ammoText: {fileID: 6899361876598772434, guid: 15b43f1c006c253408d2b6e957e76cec, type: 3}
 --- !u!1001 &7181998725063597287
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6472443045003408873}
   - component: {fileID: 6687048138483867771}
   - component: {fileID: 8556677010311594020}
-  - component: {fileID: 6005120417558465517}
   - component: {fileID: 283520137483437788}
   m_Layer: 0
   m_Name: Gun
@@ -98,22 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6005120417558465517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5076380935197075260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148d460903c7abb40a4cc8cb3fd35305, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 7775605636186021039, guid: 9d894d536fdf0bb48843a0b0e199f975, type: 3}
-  bomb: {fileID: 0}
-  myForce: 25
-  maxAmmo: 15
 --- !u!54 &283520137483437788
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -48,11 +48,11 @@ namespace NetworkGame.Networking
             // MeshRenderer render = gameObject.GetComponent<MeshRenderer>();
             // render.material.color = cubeColor;
 
-            string floatString = "";
-            for(int i = 0; i < syncedFloats.Count; i++)
-                floatString += syncedFloats[i] + ",";
-            
-            Debug.Log(floatString, gameObject);
+            // string floatString = "";
+            // for(int i = 0; i < syncedFloats.Count; i++)
+            //     floatString += syncedFloats[i] + ",";
+            //
+            // Debug.Log(floatString, gameObject);
             
             // First determine if this function is being run on the local player
             if(isLocalPlayer)

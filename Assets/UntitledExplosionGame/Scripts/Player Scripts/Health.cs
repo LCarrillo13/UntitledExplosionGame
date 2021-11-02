@@ -19,8 +19,8 @@ namespace GameScripts.PlayerScripts
         // Start is called before the first frame update
         void Start()
         {
-            health = maxHealth;
-            healthText.text = health.ToString();
+            //health = maxHealth;
+            //healthText.text = health.ToString();
         }
 
         // Update is called once per frame
@@ -30,7 +30,7 @@ namespace GameScripts.PlayerScripts
             {
                 Debug.Log("You Died");
             }
-            healthText.text = health.ToString();
+            //healthText.text = health.ToString();
         }
 
         // 
