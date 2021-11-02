@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using GameScripts.PlayerScripts;
 
+using Mirror;
+
 namespace GameScripts.ExplosionScripts
 {
     public class Explode : MonoBehaviour

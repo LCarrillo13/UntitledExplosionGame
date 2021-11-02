@@ -15,19 +15,21 @@ namespace GameScripts.PlayerScripts
     /// </summary>
     public class PlayerShoot : NetworkBehaviour
     {
-        private Transform thisTransform;
+        [SyncVar] private Transform thisTransform;
         [SerializeField] private GameObject bullet;
         [SerializeField] private GameObject gun;
         [SerializeField] private GameObject bomb;
         [SerializeField] private float myForce = 25;
-        [ReadOnly] private int tempAmmo = 15;
-        [SerializeField] private int maxAmmo = 15;
+        
+        [SyncVar][ReadOnly] private int tempAmmo = 15;
+        [SyncVar][SerializeField] private int maxAmmo = 15;
     // HUD Ammo Text
-        [SerializeField] private Text ammoText;
+    [SerializeField] private Text ammoText;
+       
 
         private void Start()
         {
-            thisTransform = gun.transform;
+            thisTransform = transform;
             ammoText.text = tempAmmo.ToString();
         }
 
@@ -42,10 +44,11 @@ namespace GameScripts.PlayerScripts
             {
                 Reload();
             }
+            ammoText.text = tempAmmo.ToString();
         }
 
         /// <summary>
-        /// Launches grenade / bomb from just in front of gun, auto-despawns after 6 sec
+        /// Launches grenade / bomb from just in front of gun, auto-despawns after 5 sec
         /// </summary>
         [Command]
         void CmdShoot()
@@ -55,9 +58,11 @@ namespace GameScripts.PlayerScripts
                 bomb = Instantiate(bullet, thisTransform.transform.TransformPoint(0, 0, 2f), thisTransform.rotation);
                 NetworkServer.Spawn(bomb);
                 bomb.GetComponent<Rigidbody>().AddForce(thisTransform.forward * myForce, ForceMode.Impulse);
-                Destroy(bomb, 6);
+                Destroy(bomb, 5);
                 Debug.Log("shot");
+                
                 tempAmmo--;
+                Debug.Log(tempAmmo);
                 ammoText.text = tempAmmo.ToString();
             }
             else

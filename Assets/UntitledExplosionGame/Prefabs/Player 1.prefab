@@ -97,13 +97,13 @@ GameObject:
   - component: {fileID: 3948027202582016015}
   - component: {fileID: 6523168614045558572}
   - component: {fileID: 5396215498775497247}
+  - component: {fileID: 4128955321169802706}
   - component: {fileID: 4220875076007185932}
   - component: {fileID: 2379099049883225132}
   - component: {fileID: 2570193148614563571}
   - component: {fileID: 660789752893061396}
   - component: {fileID: 2221370088050973946}
   - component: {fileID: 2754726288954851687}
-  - component: {fileID: 4128955321169802706}
   - component: {fileID: -4552999339509381108}
   m_Layer: 0
   m_Name: Player 1
@@ -222,6 +222,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &4128955321169802706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578316946323869340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83392ae5c1b731446909f252fd494ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  target: {fileID: 5396215498775497247}
+  clientAuthority: 0
+  syncVelocity: 1
+  clearVelocity: 0
+  velocitySensitivity: 0.1
+  syncAngularVelocity: 1
+  clearAngularVelocity: 0
+  angularVelocitySensitivity: 0.1
 --- !u!114 &4220875076007185932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,28 +339,6 @@ MonoBehaviour:
   isDead: 0
   isHit: 0
   healthText: {fileID: 0}
---- !u!114 &4128955321169802706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578316946323869340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83392ae5c1b731446909f252fd494ae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  target: {fileID: 5396215498775497247}
-  clientAuthority: 0
-  syncVelocity: 1
-  clearVelocity: 0
-  velocitySensitivity: 0.1
-  syncAngularVelocity: 1
-  clearAngularVelocity: 0
-  angularVelocitySensitivity: 0.1
 --- !u!114 &-4552999339509381108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +366,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5382522325551147870}
     m_Modifications:
+    - target: {fileID: 3627821685802566310, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4789038594891046486, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -414,10 +418,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gun
       objectReference: {fileID: 0}
-    - target: {fileID: 6687048138483867771, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 5561349426305759274, guid: c8ab05f95958fdd44ae62eb2f9c750a8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad493b020d648b94db12609edbf3d95e, type: 3}
 --- !u!4 &2440248356025696945 stripped

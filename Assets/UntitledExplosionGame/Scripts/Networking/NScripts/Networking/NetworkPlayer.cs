@@ -60,12 +60,12 @@ namespace NetworkGame.Networking
                 if(Input.GetKeyDown(KeyCode.R))
                 {
                     // Run a function that tells every client to change the colour of this gameObject
-                    CmdRandomColor();
+                    //CmdRandomColor();
                 }
 
                 if(Input.GetKeyDown(KeyCode.E))
                 {
-                    CmdSpawnEnemy();
+                    //CmdSpawnEnemy();
                 }
                 
             }

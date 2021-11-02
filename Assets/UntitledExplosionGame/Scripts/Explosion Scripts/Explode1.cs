@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using GameScripts.PlayerScripts;
 using GameScripts.PlayerScripts;
+
+using Mirror;
+
 using System;
 
 using Unity.Collections;
@@ -36,6 +39,7 @@ namespace GameScripts.ExplosionScripts
                 }
         }
 
+        
         private void OnCollisionEnter(Collision other)
         {
             Debug.Log(other);
