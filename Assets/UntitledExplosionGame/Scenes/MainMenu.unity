@@ -3220,7 +3220,7 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs:
-  - {fileID: 0}
+  - {fileID: 7775605636186021039, guid: 9d894d536fdf0bb48843a0b0e199f975, type: 3}
   discovery: {fileID: 1814007120}
 --- !u!4 &1814007119
 Transform:

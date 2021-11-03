@@ -9,9 +9,9 @@ namespace NetworkGame
 {
 	public class PlayerController : MonoBehaviour
 	{
-		[SerializeField] private float speed = 3f;
-		[SerializeField] private float sprint = 6f;
-		private CustomNetworkManager nManager;
+		[SerializeField] private float speed = 4f;
+		[SerializeField] private float sprint = 8f;
+		
 
 		// Update is called once per frame
 		private void Update()

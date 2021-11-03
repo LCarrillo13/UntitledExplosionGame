@@ -115,7 +115,7 @@ MonoBehaviour:
   power: 15
   radius: 10
   upForce: 2
-  countdownTime: 5
+  countdownTime: 3
 --- !u!54 &-8398554878345057136
 Rigidbody:
   m_ObjectHideFlags: 0

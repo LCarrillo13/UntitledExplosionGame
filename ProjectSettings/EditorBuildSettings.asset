@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UntitledExplosionGame/Scenes/Offline.unity
     guid: 9a827b0354dac4743827fa23abb2fbf2
-  - enabled: 1
+  - enabled: 0
     path: Assets/UntitledExplosionGame/Scenes/Online.unity
     guid: 0b9db84d5bf83984e8ef46d1eb4a6b46
   - enabled: 1

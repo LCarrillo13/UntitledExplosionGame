@@ -10,9 +10,11 @@ namespace NetworkGame.Networking
     {
         [SerializeField] private GameObject enemyToSpawn;
         [SyncVar(hook = nameof(OnSetCubeColor)), SerializeField] private Color cubeColor;
+        [SerializeField] private new Camera camera;
 
         private readonly SyncList<float> syncedFloats = new SyncList<float>();
-        private Health pHealth;
+        //private Health pHealth;
+        public PlayerShoot pShoot;
 
         // SyncVarHooks get called in the order the VARIABLES are defined not the functions
         // [SyncVar(hook = "SetX")] public float x;
@@ -45,9 +47,10 @@ namespace NetworkGame.Networking
 
         private void Update()
         {
+            
             // MeshRenderer render = gameObject.GetComponent<MeshRenderer>();
             // render.material.color = cubeColor;
-
+            
             // string floatString = "";
             // for(int i = 0; i < syncedFloats.Count; i++)
             //     floatString += syncedFloats[i] + ",";
@@ -61,11 +64,12 @@ namespace NetworkGame.Networking
                 {
                     // Run a function that tells every client to change the colour of this gameObject
                     //CmdRandomColor();
+                    
                 }
 
-                if(Input.GetKeyDown(KeyCode.E))
+                if(Input.GetKeyDown(KeyCode.F))
                 {
-                    //CmdSpawnEnemy();
+                   // pShoot.ammoText.text = pShoot.tempAmmo.ToString();
                 }
                 
             }
@@ -130,6 +134,9 @@ namespace NetworkGame.Networking
             controller.enabled = isLocalPlayer;
             
             CustomNetworkManager.AddPlayer(this);
+
+            camera.enabled = isLocalPlayer;
+            camera.GetComponent<AudioListener>().enabled = isLocalPlayer;
         }
 
         public override void OnStopClient()
