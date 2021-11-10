@@ -1,3 +1,6 @@
+using Mirror;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -5,30 +8,55 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 
+using NetworkPlayer = NetworkGame.Networking.NetworkPlayer;
+
 namespace GameScripts.PlayerScripts
 {
-    public class Health : MonoBehaviour
+    public class Health : NetworkBehaviour
     {
-        [Header("Health Settings")] [SerializeField] public int health;
+        [Header("Health Settings")] 
+        [SyncVar][SerializeField] public int health;
         [SerializeField] public int maxHealth = 100;
-        [Space] [SerializeField] private bool isDead = false;
-        [SerializeField] private bool isHit = false;
+        [Space]
+        [SyncVar][SerializeField] public bool isDead = false;
+        //[SerializeField] private bool isHit = false;
         [SerializeField] public Text healthText;
+        //[SerializeField] public Canvas deathCanvas;
+        public GameObject deathPanel;
+        
 
 
         // Start is called before the first frame update
         void Start()
         {
-            //health = maxHealth;
+            
             //healthText.text = health.ToString();
         }
 
-        // Update is called once per frame
-        private void Update()
+        private void Awake()
         {
-            if(isDead == true)
+             health = maxHealth;
+            //deathCanvas.gameObject.SetActive(false);
+            deathPanel = GameObject.FindGameObjectWithTag("DeathPanel");
+             if(deathPanel == enabled)
+             {
+                 deathPanel.gameObject.SetActive(false);
+             }
+             
+        }
+
+        // Update is called once per frame
+        private void FixedUpdate()
+        {
+            if(isDead)
             {
                 Debug.Log("You Died");
+                Death();
+            }
+
+            if(Input.GetKeyDown(KeyCode.X))
+            {
+                Death();
             }
             //healthText.text = health.ToString();
         }
@@ -37,15 +65,23 @@ namespace GameScripts.PlayerScripts
         // Making every way to modify health into its own method
         //
 
+       //[Server]
         void Death()
         {
-            isDead = true;
+            // respawn
+            if(isLocalPlayer)
+            {
+                deathPanel.gameObject.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
         }
 
-        void IndirectHit()
-        {
-            isHit = true;
-        }
+        
+        // void IndirectHit()
+        // {
+        //     isHit = true;
+        // }
 
     }
 }

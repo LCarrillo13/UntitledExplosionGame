@@ -3,18 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4530abdb-09b5-4e23-8f91-7b66ee7c3f2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/AmmoText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/AmmoText.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Bomb.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Player 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/ExplosionMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/ExplosionMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/DoubleJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/DoubleJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +37,19 @@
     <setting file="file://$PROJECT_DIR$/../UntitledExplosionGame_clone_0/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotCamTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/SpawnVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TheJokesOnYou/Assets/Nick/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/f8/958b72fd/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../S2-2021-Networking/Assets/Networking Learning/Scripts/Networking/CustomNetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../S2-2021-Networking/Assets/Networking Learning/Scripts/Networking/NetworkPlayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Menu Scripts/pSettings.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/SpawnVisual.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotateCamera.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/DoubleJump.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/DiscoveredGame.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/ConnectionMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/CustomNetworkDiscovery.cs" />
@@ -54,13 +58,17 @@
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Menu Scripts/CloseGame.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Menu Scripts/SceneLoad.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Menu Scripts/MainMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Shaders/ToonShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/DoubleJump.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Menu Scripts/pSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Lobby.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zRG1zb6icsPmVzrJl4KQnLV5gn" />
@@ -128,6 +136,8 @@
       <workItem from="1635835816522" duration="5797000" />
       <workItem from="1635904082891" duration="4167000" />
       <workItem from="1635915492539" duration="1135000" />
+      <workItem from="1635918649825" duration="3112000" />
+      <workItem from="1636509352973" duration="13921000" />
     </task>
     <servers />
   </component>

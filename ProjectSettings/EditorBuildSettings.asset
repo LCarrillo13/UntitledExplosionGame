@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UntitledExplosionGame/Scenes/MainMenu.unity
     guid: 6c02037bdb0a40544b5a37312c2076b6
+  - enabled: 1
+    path: Assets/UntitledExplosionGame/Scenes/Lobby.unity
+    guid: e038f061fd91a514681862334cc91399
   - enabled: 0
     path: Assets/UntitledExplosionGame/Scenes/Offline.unity
     guid: 9a827b0354dac4743827fa23abb2fbf2

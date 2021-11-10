@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Ambient: 0.407
+    - _Ambient: 0.14
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DepthSpeed: 1
@@ -83,7 +83,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Treshold: 5.4
+    - _Treshold: 3.2
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

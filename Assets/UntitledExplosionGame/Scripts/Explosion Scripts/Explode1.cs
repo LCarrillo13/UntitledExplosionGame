@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using GameScripts.PlayerScripts;
-using GameScripts.PlayerScripts;
 
 using Mirror;
 
@@ -39,15 +38,22 @@ namespace GameScripts.ExplosionScripts
                 }
         }
 
-        
+        [Server]
         private void OnCollisionEnter(Collision other)
         {
             Debug.Log(other);
+            
             Detonate();
-            Destroy(bomb, 1f);
             if(other.gameObject.CompareTag("Player"))
             {
-                pHealth.health -= 25;
+                other.gameObject.GetComponent<Health>().health -= 50;
+                // changes health text UI
+                other.gameObject.GetComponent<Health>().healthText.text = 
+                    other.gameObject.GetComponent<Health>().health.ToString();
+                if(other.gameObject.GetComponent<Health>().health == 0)
+                {
+                    other.gameObject.GetComponent<Health>().isDead = true;
+                }
             }
             
         }

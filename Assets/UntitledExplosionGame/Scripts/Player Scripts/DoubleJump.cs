@@ -14,7 +14,7 @@ namespace GameScripts.PlayerScripts
 		[SerializeField] private Rigidbody rb;
 
 		[SerializeField] private int maxJumps = 2;
-
+		
 		//[SerializeField] private int moveSpeed;
 		private int jumps;
 		[SerializeField] private float jumpForce = 5f;

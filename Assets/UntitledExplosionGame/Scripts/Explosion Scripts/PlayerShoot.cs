@@ -21,14 +21,14 @@ namespace GameScripts.PlayerScripts
         [SerializeField] private float myForce = 25;
         
         [SyncVar][SerializeField] public int tempAmmo = 15;
-        [SyncVar][SerializeField] private int maxAmmo = 15;
+        [SyncVar][SerializeField] public int maxAmmo = 15;
     // HUD Ammo Text
-    [SerializeField] public Text ammoText;
+    //[SerializeField] public Text ammoText;
        
 
         private void Start()
         {
-            ammoText.text = tempAmmo.ToString();
+            
         }
 
         private void Update()
@@ -39,15 +39,15 @@ namespace GameScripts.PlayerScripts
                 if(Input.GetKeyDown(KeyCode.F))
                 {
                     CmdShoot(gameObject);
-                    ammoText.text = tempAmmo.ToString();
+                    //ammoText.text = tempAmmo.ToString();
                 }
 
                 if(Input.GetKeyDown(KeyCode.R))
                 {
                     Reload();
-                    ammoText.text = tempAmmo.ToString();
+                    //ammoText.text = tempAmmo.ToString();
                 }
-                ammoText.text = tempAmmo.ToString();
+                
             }
 
         }
@@ -70,13 +70,13 @@ namespace GameScripts.PlayerScripts
                 
                 tempAmmo -= 1;
                 Debug.Log(tempAmmo);
-                ammoText.text = tempAmmo.ToString();
+                //ammoText.text = tempAmmo.ToString();
                 
             }
             else
             {
                 Debug.Log("Out of Ammo!");
-                ammoText.text = tempAmmo.ToString();
+                //ammoText.text = tempAmmo.ToString();
             }
         }
 
@@ -97,7 +97,7 @@ namespace GameScripts.PlayerScripts
         {
             // Add Reload animation, delay time
             tempAmmo = maxAmmo;
-            ammoText.text = tempAmmo.ToString();
+            //ammoText.text = tempAmmo.ToString();
         }
     }
 }

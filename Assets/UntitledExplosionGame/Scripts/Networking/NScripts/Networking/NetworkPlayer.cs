@@ -1,7 +1,12 @@
 using Mirror;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using GameScripts.PlayerScripts;
+
+using System;
+
+using Random = UnityEngine.Random;
 
 namespace NetworkGame.Networking
 {
@@ -9,8 +14,14 @@ namespace NetworkGame.Networking
     public class NetworkPlayer : NetworkBehaviour
     {
         [SerializeField] private GameObject enemyToSpawn;
+        [SerializeField] public GameObject thisPlayer;
         [SyncVar(hook = nameof(OnSetCubeColor)), SerializeField] private Color cubeColor;
         [SerializeField] private new Camera camera;
+        [SyncVar] public Vector3 spawnPoint;
+        [SyncVar] public Transform playerTransform;
+        [SyncVar] public Quaternion spawnRotation;
+        //
+        
 
         private readonly SyncList<float> syncedFloats = new SyncList<float>();
         //private Health pHealth;
@@ -42,6 +53,13 @@ namespace NetworkGame.Networking
         
         private void Awake()
         {
+            if(isLocalPlayer)
+            {
+                //thisPlayer = gameObject;
+                
+                GetComponentInChildren<Canvas>().gameObject.SetActive(true);
+            
+            }
             // This will run REGARDLESS if we are the local or remote player
         }
 
@@ -73,6 +91,15 @@ namespace NetworkGame.Networking
                 }
                 
             }
+        }
+
+        private void FixedUpdate()
+        {
+             if(isLocalPlayer)
+             {
+                 playerTransform.position = transform.position;
+                 playerTransform.rotation = transform.rotation;
+             } 
         }
 
         [Command]
@@ -119,6 +146,16 @@ namespace NetworkGame.Networking
         // instantiates the object
         public override void OnStartLocalPlayer()
         {
+            SceneManager.LoadSceneAsync("Lobby", LoadSceneMode.Additive);
+            
+            spawnPoint = transform.position;
+            spawnRotation = transform.rotation;
+            
+            Debug.Log(spawnPoint);
+            Debug.Log(spawnRotation);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            
             // This is run if we are the local player and NOT a remote player
         }
 
@@ -150,5 +187,21 @@ namespace NetworkGame.Networking
             for(int i = 0; i < 10; i++)
                 syncedFloats.Add(Random.Range(0, 11));
         }
+        
+        public void StartMatch()
+        {
+            if(isLocalPlayer)
+            {
+                CmdStartMatch();
+            }
+        }
+        
+        [Command]
+        public void CmdStartMatch()
+        {
+            MatchManager.instance.StartMatch();
+        }
+
+        
     }
 }
