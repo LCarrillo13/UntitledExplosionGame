@@ -22,25 +22,34 @@ namespace GameScripts.PlayerScripts
         
         [SyncVar][SerializeField] public int tempAmmo = 15;
         [SyncVar][SerializeField] public int maxAmmo = 15;
-    // HUD Ammo Text
+        
+        [Header("Animations")] [SerializeField] public Animator playerAnim;
+
+        private static readonly int isShooting = Animator.StringToHash("IsShooting");
+        // HUD Ammo Text
     //[SerializeField] public Text ammoText;
        
 
         private void Start()
         {
-            
+            playerAnim = GetComponentInChildren<Animator>();
         }
 
         private void Update()
         {
             if(isLocalPlayer)
             {
-                
                 if(Input.GetKeyDown(KeyCode.F))
                 {
                     CmdShoot(gameObject);
+                    //playerAnim.Play("Shoot");
+                    // playerAnim.SetBool(isShooting, true);
                     //ammoText.text = tempAmmo.ToString();
                 }
+                // else
+                // {
+                //     playerAnim.SetBool(isShooting, false); 
+                // }
 
                 if(Input.GetKeyDown(KeyCode.R))
                 {

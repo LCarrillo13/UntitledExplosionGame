@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class RotCamTest : MonoBehaviour
 
 	public float sensitivity;
 	public Camera cam;
+	public CullingGroup playerCull;
+	//public LayerMask playerMask = 1 << 6;
 
 	float rotY = 0f;
 	float rotX = 0f;
@@ -17,6 +20,15 @@ public class RotCamTest : MonoBehaviour
 	{
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
+
+		//playerMask = ~playerMask;
+
+	}
+
+	private void Awake()
+	{
+		//Debug.Log(playerMask);
+		//cam.cullingMask = playerMask;
 	}
 
 	void Update()
