@@ -15,11 +15,11 @@ F:/Git/UntitledExplosionGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53283
+59245
 Successfully changed project path to: F:/Git/UntitledExplosionGame
 F:/Git/UntitledExplosionGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Unity Editors/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,123 +35,97 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editors/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editors/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity Editors/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editors/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003766 seconds.
+Registered in 0.004050 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
+- Completed reload, in  1.163 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001962 seconds.
+Registered in 0.002035 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  0.970 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1790 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.9 MB.
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
 
 Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 2.300500 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.091000 ms MarkObjects: 1.853300 ms  DeleteObjects: 0.141800 ms)
+Total: 6.560300 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.689600 ms  DeleteObjects: 4.640100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/UntitledExplosionGame/Models/base_01.fbx
-  artifactKey: Guid(5dea41fd811364940a6075bb7f9a1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/base_01.fbx using Guid(5dea41fd811364940a6075bb7f9a1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44de95127d435a8457ca4aa79306d36f') in 0.289845 seconds
-  Import took 0.292645 seconds .
+  path: Assets/UntitledExplosionGame/Scripts
+  artifactKey: Guid(f0300018bfd10524785c736697c53cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Scripts using Guid(f0300018bfd10524785c736697c53cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf1bd29f0cc855d56f8e98437d0c703') in 0.011141 seconds
+  Import took 0.036756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UntitledExplosionGame/Models/rocket-launcher-blockout.fbx
-  artifactKey: Guid(c8ab05f95958fdd44ae62eb2f9c750a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/rocket-launcher-blockout.fbx using Guid(c8ab05f95958fdd44ae62eb2f9c750a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df27025ad85412f2aaf6a976eb81581b') in 0.031338 seconds
-  Import took 0.034369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/UntitledExplosionGame/Models
-  artifactKey: Guid(b0939d23b4c9a0f45bd64b67a210f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models using Guid(b0939d23b4c9a0f45bd64b67a210f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518933c6c4165109300de0eb18e8c65d') in 0.009996 seconds
-  Import took 0.013306 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.3 MB.
-System memory in use after: 50.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 1.996100 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.765200 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.543099 seconds.
+  Time since last request: 6.390023 seconds.
   path: Assets/UntitledExplosionGame/Models/Character.fbx
   artifactKey: Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/Character.fbx using Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2d8e2ced976752c497c7208b056c64') in 0.190687 seconds
-  Import took 0.194146 seconds .
+Start importing Assets/UntitledExplosionGame/Models/Character.fbx using Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586640dc15eff2f78fc47e88da2c7353') in 0.185850 seconds
+  Import took 0.189298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 207.118784 seconds.
-  path: Assets/UntitledExplosionGame/Models/GunRescale.fbx
-  artifactKey: Guid(80bcaa818ffd3b544883395fbfd38e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/GunRescale.fbx using Guid(80bcaa818ffd3b544883395fbfd38e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdcfe6a0b9a5af9127ba20dd5a1cc1c') in 0.152561 seconds
-  Import took 0.156723 seconds .
+  Time since last request: 375.050370 seconds.
+  path: Assets/UntitledExplosionGame/Models/New Animator Controller.controller
+  artifactKey: Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/New Animator Controller.controller using Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9009ac60f7a6b499e47f0c51e169e5') in 0.030781 seconds
+  Import took 0.033929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.506883 seconds.
-  path: Assets/UntitledExplosionGame/Models/GunRescale 1.fbx
-  artifactKey: Guid(7322e8c482d065943beff34f08b48187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/GunRescale 1.fbx using Guid(7322e8c482d065943beff34f08b48187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73529a48fed0fad9bffb4d7e18ee2f11') in 0.029748 seconds
-  Import took 0.032768 seconds .
+  Time since last request: 0.000501 seconds.
+  path: Assets/UntitledExplosionGame/Models/New Animator Controller.controller
+  artifactKey: Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/New Animator Controller.controller using Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9009ac60f7a6b499e47f0c51e169e5') in 0.006010 seconds
+  Import took 0.009248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.723275 seconds.
-  path: Assets/UntitledExplosionGame/Models/GunRescale.fbx
-  artifactKey: Guid(7322e8c482d065943beff34f08b48187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/GunRescale.fbx using Guid(7322e8c482d065943beff34f08b48187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d83589355eababa937184605debea') in 0.026528 seconds
-  Import took 0.029605 seconds .
+  Time since last request: 5.421454 seconds.
+  path: Assets/UntitledExplosionGame/Models/Player.controller
+  artifactKey: Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/Player.controller using Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212419172ff1770e1814d91c4c30a58f') in 0.011355 seconds
+  Import took 0.014588 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.158851 seconds.
-  path: Assets/UntitledExplosionGame/Models/Character.fbx
-  artifactKey: Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/Character.fbx using Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc6a75a5e53547c7d789e1262ff1ac9') in 0.040340 seconds
-  Import took 0.044116 seconds .
+  Time since last request: 201.751150 seconds.
+  path: Assets/UntitledExplosionGame/Models/Player.controller
+  artifactKey: Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/Player.controller using Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31f2f62da71885948955b7730c732c4') in 0.008058 seconds
+  Import took 0.013005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.001488 seconds.
-  path: Assets/UntitledExplosionGame/Models/Character.fbx
-  artifactKey: Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UntitledExplosionGame/Models/Character.fbx using Guid(db642a9a04c7bd346ba0827b500ed047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ffb4ac48a2dbcc3a2e6d8426ebcfac') in 0.040305 seconds
-  Import took 0.043982 seconds .
+  Time since last request: 315.564047 seconds.
+  path: Assets/UntitledExplosionGame/Models/Player.controller
+  artifactKey: Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UntitledExplosionGame/Models/Player.controller using Guid(ab82ba2aaa360c94bb24272181dc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea7f5394c8f1764903c199879325d11') in 0.008693 seconds
+  Import took 0.013380 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
