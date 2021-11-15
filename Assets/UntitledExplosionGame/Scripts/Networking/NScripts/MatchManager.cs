@@ -34,12 +34,6 @@ public class MatchManager : NetworkBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     [Server]
     public void StartMatch() => matchStarted = true;
 }

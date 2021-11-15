@@ -13,9 +13,11 @@ using NetworkPlayer = NetworkGame.Networking.NetworkPlayer;
 
 public class reSpawn : NetworkBehaviour
 {
-   [SyncVar] public NetworkPlayer netPlayer;
-    public GameObject thePlayer;
-    public Button respawnButton;
+    public int myInt = 3;
+   //[SyncVar(hook = typeof())] private bool myBool;
+   
+    
+   
     //public Canvas mainCanvas;
     //public GameObject thisPanel;
 
@@ -23,25 +25,46 @@ public class reSpawn : NetworkBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-         thePlayer = isLocalPlayer
-             ? GetComponent<Health>().gameObject
-             : null;
         
-         //respawnButton.interactable = CustomNetworkManager.LocalPlayer;
+        // thePlayer = isLocalPlayer
+        //     ? GetComponent<Health>().gameObject
+        //     : null;
+
+        //respawnButton.interactable = CustomNetworkManager.LocalPlayer;
     }
 
-   
-    
-    public void Respawn()
+    [Command]
+    public void ButtonClicked()
     {
-        Debug.Log("Respawning...");
-        if(isLocalPlayer)
-        {
-            netPlayer.playerTransform.position = netPlayer.spawnPoint;
-            netPlayer.playerTransform.rotation = netPlayer.spawnRotation;
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            //GetComponent<PlayerShoot>().tempAmmo = GetComponent<PlayerShoot>().maxAmmo;
-        }
+	    GetComponent<Health>().isDead = false;
     }
+    
+    // public void Respawn()
+    // {
+    //         Debug.Log("Respawning...");
+    //         if(isLocalPlayer)
+    //         {
+    //             var pPosition = transform.position;
+    //             var sPoint = CustomNetworkManager.Instance.GetStartPosition();
+    //
+    //             // set positions to new spawn point
+    //
+    //             pPosition.x = sPoint.position.x;
+    //             pPosition.y = 1;
+    //             pPosition.z = sPoint.position.x;
+    //
+    //             // resets player rotation
+    //
+    //             transform.localRotation = sPoint.rotation;
+    //             transform.position = pPosition;
+    //
+    //             // netPlayer.playerTransform.position = netPlayer.spawnPoint;
+    //             // netPlayer.playerTransform.rotation = netPlayer.spawnRotation;
+    //             Cursor.lockState = CursorLockMode.Locked;
+    //             Cursor.visible = false;
+    //             //GetComponent<PlayerShoot>().tempAmmo = GetComponent<PlayerShoot>().maxAmmo;
+    //             GetComponent<Health>().isDead = false;
+    //         }
+    //     
+    // }
 }

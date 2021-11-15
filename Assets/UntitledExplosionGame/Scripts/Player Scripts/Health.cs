@@ -1,5 +1,7 @@
 using Mirror;
 
+using NetworkGame.Networking;
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,11 +20,13 @@ namespace GameScripts.PlayerScripts
         [SyncVar][SerializeField] public int health;
         [SerializeField] public int maxHealth = 100;
         [Space]
-        [SyncVar][SerializeField] public bool isDead = false;
+        [SyncVar(hook = nameof(OnPlayerKilled))][SerializeField] public bool isDead = false;
+        [SyncVar][SerializeField] public bool canRespawn = false;
         //[SerializeField] private bool isHit = false;
         [SerializeField] public Text healthText;
         //[SerializeField] public Canvas deathCanvas;
         public GameObject deathPanel;
+        private PlayerShoot pShoot;
         
 
 
@@ -48,7 +52,7 @@ namespace GameScripts.PlayerScripts
         // Update is called once per frame
         private void FixedUpdate()
         {
-            if(isDead)
+            if(isDead && canRespawn)
             {
                 Debug.Log("You Died");
                 Death();
@@ -76,8 +80,70 @@ namespace GameScripts.PlayerScripts
                 Cursor.visible = true;
             }
         }
-
         
+        public void Respawn()
+        {
+            Debug.Log("Respawning...");
+            if(isLocalPlayer)
+            {
+                var pPosition = transform.position;
+                var sPoint = CustomNetworkManager.Instance.GetStartPosition();
+
+                // set positions to new spawn point
+
+                pPosition.x = sPoint.position.x;
+                pPosition.y = 1;
+                pPosition.z = sPoint.position.x;
+
+                // resets player rotation
+
+                transform.localRotation = sPoint.rotation;
+                transform.position = pPosition;
+
+                // netPlayer.playerTransform.position = netPlayer.spawnPoint;
+                // netPlayer.playerTransform.rotation = netPlayer.spawnRotation;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                //GetComponent<PlayerShoot>().tempAmmo = GetComponent<PlayerShoot>().maxAmmo;
+                
+            }
+        
+        }
+        IEnumerator RespawnButton()
+        {
+            yield return new WaitForSeconds(1);
+            canRespawn = true;
+        }
+        
+        private void OnPlayerKilled(bool _old, bool _new)
+        {
+            if(_new == true)
+            {
+                //Respawn();
+                // Disable mesh of player
+                isDead = true;
+                pShoot.enabled = false;
+                StartCoroutine(RespawnButton());
+            }
+            else
+            {
+                Respawn();
+                isDead = false;
+                canRespawn = false;
+                pShoot.enabled = true;
+                
+                // Re enable player mesh
+                // Update health
+
+            }
+        }
+
+        [Command]
+        public void CmdPlayerStatus(bool _value)
+        {
+            isDead = _value;
+        }
+
         // void IndirectHit()
         // {
         //     isHit = true;

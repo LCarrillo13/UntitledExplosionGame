@@ -396,6 +396,8 @@ MonoBehaviour:
   cubeColor: {r: 0, g: 0, b: 0, a: 0}
   camera: {fileID: 2029495489}
   spawnPoint: {x: 0, y: 0, z: 0}
+  playerTransform: {fileID: 0}
+  spawnRotation: {x: 0, y: 0, z: 0, w: 0}
   pShoot: {fileID: 0}
 --- !u!138 &660789752893061396
 FixedJoint:
@@ -445,8 +447,9 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   isDead: 0
+  canRespawn: 0
   healthText: {fileID: 3535140148318471717}
-  deathCanvas: {fileID: 0}
+  deathPanel: {fileID: 0}
 --- !u!114 &-4552999339509381108
 MonoBehaviour:
   m_ObjectHideFlags: 0
