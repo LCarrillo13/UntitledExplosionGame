@@ -4,6 +4,7 @@ using Mirror;
 using NetworkGame.Networking;
 
 using UnityEngine;
+using UnityEngine.Animations;
 
 namespace NetworkGame
 {
@@ -11,6 +12,8 @@ namespace NetworkGame
 	{
 		[SerializeField] private float speed = 4f;
 		[SerializeField] private float sprint = 8f;
+
+		[Header("Animations")] [SerializeField] public Animator playerAnim;
 		
 
 		// Update is called once per frame
@@ -35,6 +38,7 @@ namespace NetworkGame
 		{
 			transform.position += transform.right * Time.deltaTime * sprint * Input.GetAxis("Horizontal");
 			transform.position += transform.forward * Time.deltaTime * sprint * Input.GetAxis("Vertical");
+			
 		}
 	}
 }
