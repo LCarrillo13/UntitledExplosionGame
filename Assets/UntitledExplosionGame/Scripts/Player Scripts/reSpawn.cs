@@ -15,7 +15,7 @@ public class reSpawn : NetworkBehaviour
 {
     public int myInt = 3;
    //[SyncVar(hook = typeof())] private bool myBool;
-   
+   [SerializeField] List<Transform> positions = new List<Transform>();
     
    
     //public Canvas mainCanvas;
@@ -33,11 +33,11 @@ public class reSpawn : NetworkBehaviour
         //respawnButton.interactable = CustomNetworkManager.LocalPlayer;
     }
 
-    [Command]
-    public void ButtonClicked()
-    {
-	    GetComponent<Health>().isDead = false;
-    }
+    // [Command]
+    // public void ButtonClicked()
+    // {
+	   //  GetComponent<Health>().isDead = false;
+    // }
     
     // public void Respawn()
     // {
@@ -67,4 +67,12 @@ public class reSpawn : NetworkBehaviour
     //         }
     //     
     // }
+
+    void PlayerDeath()
+    {
+	    // choose random starting position to respawn
+	    int index = Random.Range(0, positions.Count);
+	    // respawn player back at the start
+	    transform.position = positions[index].transform.position;
+    }
 }

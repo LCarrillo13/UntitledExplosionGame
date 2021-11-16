@@ -5000,9 +5000,12 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   isDead: 0
-  canRespawn: 0
-  healthText: {fileID: 0}
-  deathPanel: {fileID: 0}
+  healthText: {fileID: 4593527232992979536}
+  positions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &7968634813268797006
 MonoBehaviour:
   m_ObjectHideFlags: 0

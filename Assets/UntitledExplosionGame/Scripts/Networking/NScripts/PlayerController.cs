@@ -17,6 +17,7 @@ namespace NetworkGame
 		[SerializeField] private Rigidbody rb;
 
 		[Header("Animations")] [SerializeField] public Animator playerAnim;
+		private static readonly int sprintSpeed = Animator.StringToHash("SprintSpeed");
 
 
 		private void Start()
@@ -46,7 +47,8 @@ namespace NetworkGame
 					Walk();
 				}
 
-				if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.F))
+				if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)
+				   || Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.F) && !Input.GetKey(KeyCode.LeftShift))
 				{
 					//&& !Input.GetKey(KeyCode.LeftShift
 					playerAnim.Play("Running");
@@ -55,7 +57,13 @@ namespace NetworkGame
 				{
 					playerAnim.Play("Shooting");
 				}
-				else
+				else if(Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)
+				        || Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.F)))
+				{
+					playerAnim.Play("Running");
+					playerAnim.SetFloat(sprintSpeed, 3);
+				}
+				else 
 				{
 					playerAnim.Play("Idle");
 				}

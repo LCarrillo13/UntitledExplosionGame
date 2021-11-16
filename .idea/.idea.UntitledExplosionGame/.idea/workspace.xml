@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4530abdb-09b5-4e23-8f91-7b66ee7c3f2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/CharAnimator.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/CharAnimator.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/Character.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/Character.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Models/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Player 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/PhysicsTesting.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotCamTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotCamTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,12 +57,12 @@
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Lobby.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/MatchManager.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/RotCamTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/reSpawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zRG1zb6icsPmVzrJl4KQnLV5gn" />
@@ -148,6 +140,8 @@
       <workItem from="1636888587831" duration="1537000" />
       <workItem from="1636957321946" duration="239000" />
       <workItem from="1636960977084" duration="9974000" />
+      <workItem from="1636977712445" duration="364000" />
+      <workItem from="1637038666583" duration="4492000" />
     </task>
     <servers />
   </component>
