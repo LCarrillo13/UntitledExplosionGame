@@ -22,6 +22,7 @@ namespace NetworkGame.Networking
         [SyncVar] public Vector3 spawnPoint;
         [SyncVar] public Transform playerTransform;
         [SyncVar] public Quaternion spawnRotation;
+        [SerializeField] private GameObject hudObject;
 
         [SerializeField] private bool isPaused;
         [Header("Pause Settings")]
@@ -122,8 +123,8 @@ namespace NetworkGame.Networking
         {
              if(isLocalPlayer)
              {
-                 playerTransform.position = transform.position;
-                 playerTransform.rotation = transform.rotation;
+                 // playerTransform.position = transform.position;
+                 // playerTransform.rotation = transform.rotation;
              } 
         }
 
@@ -201,6 +202,8 @@ namespace NetworkGame.Networking
 
             camera.enabled = isLocalPlayer;
             camera.GetComponent<AudioListener>().enabled = isLocalPlayer;
+            
+            hudObject.SetActive(isLocalPlayer);
         }
 
         public override void OnStopClient()

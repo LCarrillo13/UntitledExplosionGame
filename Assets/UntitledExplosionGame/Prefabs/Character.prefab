@@ -5483,7 +5483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  clientAuthority: 0
+  clientAuthority: 1
   excludeOwnerUpdate: 1
   syncPosition: 1
   syncRotation: 1
@@ -5530,6 +5530,7 @@ MonoBehaviour:
   spawnPoint: {x: 0, y: 0, z: 0}
   playerTransform: {fileID: 0}
   spawnRotation: {x: 0, y: 0, z: 0, w: 0}
+  hudObject: {fileID: 4593527232976340018}
   isPaused: 0
   pausePanel: {fileID: 1143210988907313027}
   quitButton: {fileID: 4219607323609637611}

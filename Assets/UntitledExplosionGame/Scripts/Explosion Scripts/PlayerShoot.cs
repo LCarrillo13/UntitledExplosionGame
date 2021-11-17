@@ -21,10 +21,7 @@ namespace GameScripts.PlayerScripts
         [SerializeField] private float myForce = 25;
         [SerializeField] public Text ammoText;
         
-        
-        [SyncVar(hook = nameof(SetAmmoText))][SerializeField] public string ammoName;
-        
-        [SerializeField] public int tempAmmo = 15;
+        [SyncVar(hook = nameof(SetAmmoText))][SerializeField] public int currentAmmo = 15;
         
         [SyncVar][SerializeField] public int maxAmmo = 15;
         
@@ -38,16 +35,17 @@ namespace GameScripts.PlayerScripts
         private void Start()
         {
             playerAnim = GetComponentInChildren<Animator>();
+            
+            SetAmmoText(0, 0);
         }
 
         private void Update()
         {
             if(isLocalPlayer)
             {
-                ammoName = tempAmmo.ToString();
                 if(Input.GetKeyDown(KeyCode.F))
                 {
-                    CmdShoot(gameObject);
+                    CmdShoot(gun.transform.position, gun.transform.rotation, gun.transform.forward);
                     //playerAnim.Play("Shoot");
                     // playerAnim.SetBool(isShooting, true);
                     //ammoText.text = tempAmmo.ToString();
@@ -59,7 +57,7 @@ namespace GameScripts.PlayerScripts
 
                 if(Input.GetKeyDown(KeyCode.R))
                 {
-                    Reload();
+                    CmdReload();
                     //ammoText.text = tempAmmo.ToString();
                 }
                 
@@ -67,29 +65,29 @@ namespace GameScripts.PlayerScripts
 
         }
 
-        void SetAmmoText(string _old, string _new)
+        void SetAmmoText(int _old, int _new)
         {
-            ammoText.text = ammoName;
+            ammoText.text = currentAmmo.ToString();
         }
 
         /// <summary>
         /// Launches grenade / bomb from just in front of gun, auto-despawns after 5 sec
         /// </summary>
         [Command]
-        void CmdShoot(GameObject _gun)
+        void CmdShoot(Vector3 _position, Quaternion _rotation, Vector3 _forward)
         {
-            if(tempAmmo > 0)
+            if(currentAmmo > 0)
             {
-                GameObject newBomb = Instantiate(bullet, _gun.transform);
-                newBomb.transform.localPosition = new Vector3(0, 0, 2);
-                newBomb.transform.SetParent(null, true);
+                GameObject newBomb = Instantiate(bullet, _position + _forward * 2f, _rotation);
+                // newBomb.transform.localPosition = new Vector3(0, 0, 2);
+                // newBomb.transform.SetParent(null, true);
                 NetworkServer.Spawn(newBomb);
-                newBomb.GetComponent<Rigidbody>().AddForce(_gun.transform.forward * myForce, ForceMode.Impulse);
+                newBomb.GetComponent<Rigidbody>().AddForce(_forward * myForce, ForceMode.Impulse);
                 //Destroy(bomb, 5);
                 Debug.Log("shot");
                 
-                tempAmmo -= 1;
-                Debug.Log(tempAmmo);
+                currentAmmo -= 1;
+                Debug.Log(currentAmmo);
                 //ammoText.text = tempAmmo.ToString();
                 
             }
@@ -113,10 +111,11 @@ namespace GameScripts.PlayerScripts
         /// <summary>
         /// Reload weapon
         /// </summary>
-        void Reload()
+        [Command]
+        void CmdReload()
         {
             // Add Reload animation, delay time
-            tempAmmo = maxAmmo;
+            currentAmmo = maxAmmo;
             //ammoText.text = tempAmmo.ToString();
         }
     }
