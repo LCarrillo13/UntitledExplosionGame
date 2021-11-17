@@ -564,7 +564,7 @@ MonoBehaviour:
   spawnPoint: {x: 0, y: 0, z: 0}
   playerTransform: {fileID: 0}
   spawnRotation: {x: 0, y: 0, z: 0, w: 0}
-  eventSystemObject: {fileID: 5113408380622665672}
+  hudObject: {fileID: 0}
   isPaused: 0
   pausePanel: {fileID: 0}
   quitButton: {fileID: 0}
@@ -639,8 +639,7 @@ MonoBehaviour:
   bomb: {fileID: 0}
   myForce: 25
   ammoText: {fileID: 0}
-  ammoName: 
-  tempAmmo: 15
+  currentAmmo: 15
   maxAmmo: 15
   playerAnim: {fileID: 0}
 --- !u!114 &-5907326871916969107
@@ -952,6 +951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: db642a9a04c7bd346ba0827b500ed047, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0fc012a00905d8b4d97f485101c83516, type: 2}
     - target: {fileID: 4167280743394806330, guid: db642a9a04c7bd346ba0827b500ed047, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.367
