@@ -19,8 +19,13 @@ namespace GameScripts.PlayerScripts
         [SerializeField] private GameObject gun;
         [SerializeField] private GameObject bomb;
         [SerializeField] private float myForce = 25;
+        [SerializeField] public Text ammoText;
         
-        [SyncVar][SerializeField] public int tempAmmo = 15;
+        
+        [SyncVar(hook = nameof(SetAmmoText))][SerializeField] public string ammoName;
+        
+        [SerializeField] public int tempAmmo = 15;
+        
         [SyncVar][SerializeField] public int maxAmmo = 15;
         
         [Header("Animations")] [SerializeField] public Animator playerAnim;
@@ -39,6 +44,7 @@ namespace GameScripts.PlayerScripts
         {
             if(isLocalPlayer)
             {
+                ammoName = tempAmmo.ToString();
                 if(Input.GetKeyDown(KeyCode.F))
                 {
                     CmdShoot(gameObject);
@@ -59,6 +65,11 @@ namespace GameScripts.PlayerScripts
                 
             }
 
+        }
+
+        void SetAmmoText(string _old, string _new)
+        {
+            ammoText.text = ammoName;
         }
 
         /// <summary>

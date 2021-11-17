@@ -903,9 +903,8 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   isDead: 0
-  canRespawn: 0
   healthText: {fileID: 0}
-  deathPanel: {fileID: 0}
+  positions: []
 --- !u!114 &1020722220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6843,9 +6842,8 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   isDead: 0
-  canRespawn: 0
   healthText: {fileID: 0}
-  deathPanel: {fileID: 0}
+  positions: []
 --- !u!114 &3200410278945194661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6867,6 +6865,8 @@ MonoBehaviour:
   spawnPoint: {x: 0, y: 0, z: 0}
   playerTransform: {fileID: 0}
   spawnRotation: {x: 0, y: 0, z: 0, w: 0}
+  isPaused: 0
+  pausePanel: {fileID: 0}
   pShoot: {fileID: 0}
 --- !u!114 &3370184314655053946
 MonoBehaviour:
@@ -6987,6 +6987,8 @@ MonoBehaviour:
   gun: {fileID: 0}
   bomb: {fileID: 0}
   myForce: 25
+  ammoText: {fileID: 0}
+  ammoName: 
   tempAmmo: 15
   maxAmmo: 15
   playerAnim: {fileID: 0}

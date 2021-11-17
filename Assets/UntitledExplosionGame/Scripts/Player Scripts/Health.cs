@@ -20,7 +20,8 @@ namespace GameScripts.PlayerScripts
         [Header("Health Settings")] 
         [SyncVar][SerializeField] public int health;
         [SerializeField] public int maxHealth = 100;
-        [Space]
+
+        [Space] [SerializeField] [SyncVar(hook = nameof(SetHealthText))] public string healthName;
         //[SyncVar(hook = nameof(OnPlayerKilled))][SerializeField]
         public bool isDead = false;
        // [SyncVar][SerializeField] public bool canRespawn = false;
@@ -55,21 +56,49 @@ namespace GameScripts.PlayerScripts
             //  }
              
         }
-
+        
         // Update is called once per frame
+        private void Update()
+        {
+            // For testing purposes
+            if(isLocalPlayer)
+            {
+                // important!!!
+                healthName = health.ToString();
+                // ^ keep
+                if(Input.GetKeyDown(KeyCode.X))
+                {
+                    Death();
+                }
+
+                if(Input.GetKeyDown(KeyCode.Z))
+                {
+                    health -= 10;
+                }
+            }
+        }
+
+        // FixedUpdate is framerate independant
         private void FixedUpdate()
         {
-            if(isDead)
+            if(isLocalPlayer)
             {
-                Debug.Log("You Died");
-                Death();
-            }
+                
+                if(isDead)
+                {
+                    Debug.Log("You Died");
+                    Death();
+                }
 
-            if(Input.GetKeyDown(KeyCode.X))
-            {
-                Death();
+                
+                //healthText.text = health.ToString();
             }
-            //healthText.text = health.ToString();
+        }
+
+        void SetHealthText(string _old, string _new)
+        {
+            // test
+            healthText.text = healthName;
         }
 
         // 

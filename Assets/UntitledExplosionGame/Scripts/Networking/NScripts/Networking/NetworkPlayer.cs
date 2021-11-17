@@ -6,6 +6,8 @@ using GameScripts.PlayerScripts;
 
 using System;
 
+using UnityEngine.UI;
+
 using Random = UnityEngine.Random;
 
 namespace NetworkGame.Networking
@@ -20,7 +22,12 @@ namespace NetworkGame.Networking
         [SyncVar] public Vector3 spawnPoint;
         [SyncVar] public Transform playerTransform;
         [SyncVar] public Quaternion spawnRotation;
-        //
+
+        [SerializeField] private bool isPaused;
+        [Header("Pause Settings")]
+        [SerializeField] public GameObject pausePanel;
+        [SerializeField] public Button quitButton;
+        
         
 
         private readonly SyncList<float> syncedFloats = new SyncList<float>();
@@ -56,7 +63,7 @@ namespace NetworkGame.Networking
             if(isLocalPlayer)
             {
                 //thisPlayer = gameObject;
-                
+                pausePanel.SetActive(false);
                 GetComponentInChildren<Canvas>().gameObject.SetActive(true);
             
             }
@@ -89,6 +96,24 @@ namespace NetworkGame.Networking
                 {
                    // pShoot.ammoText.text = pShoot.tempAmmo.ToString();
                 }
+
+                if(Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
+                {
+                    pausePanel.SetActive(true);
+                    if(isLocalPlayer)
+                    {
+                        quitButton.interactable = true;
+                    }
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    isPaused = true;
+                }
+                else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
+                {
+                    pausePanel.SetActive(false);
+                    isPaused = false;
+                }
+                
                 
             }
         }
@@ -125,6 +150,8 @@ namespace NetworkGame.Networking
             // This is running on the server
             // RpcRandomColor(Random.Range(0f, 1f));
         }
+
+    #region Match Setup
         
         // RULES FOR CLIENT RPC:
         // 1. Cannot return anything
@@ -201,7 +228,22 @@ namespace NetworkGame.Networking
         {
             MatchManager.instance.StartMatch();
         }
-
         
+        public void LeaveMatch()
+        {
+            if (!isLocalPlayer) return;
+            CmdLeaveMatch();
+        }
+        
+        [Client]
+        public void CmdLeaveMatch()
+        {
+            CustomNetworkManager.Instance.StopClient();
+            if (isServer) CustomNetworkManager.Instance.StopHost();
+            
+            SceneManager.LoadScene("MainMenu");
+        }
+
+    #endregion
     }
 }
