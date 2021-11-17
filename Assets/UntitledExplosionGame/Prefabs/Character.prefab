@@ -1914,6 +1914,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 626847316271443151}
+        m_TargetAssemblyTypeName: GameScripts.MenuScripts.CloseGame, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &626847316271443151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5465,8 +5477,7 @@ MonoBehaviour:
   bomb: {fileID: 7775605636186021039, guid: 9d894d536fdf0bb48843a0b0e199f975, type: 3}
   myForce: 25
   ammoText: {fileID: 2672644180157255808}
-  ammoName: 
-  tempAmmo: 15
+  currentAmmo: 15
   maxAmmo: 15
   playerAnim: {fileID: 5497235734933040859}
 --- !u!114 &7968634813268797007

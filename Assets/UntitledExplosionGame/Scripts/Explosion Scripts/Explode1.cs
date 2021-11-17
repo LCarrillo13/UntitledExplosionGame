@@ -21,6 +21,7 @@ namespace GameScripts.ExplosionScripts
         [SerializeField] private float upForce = 1.0f;
         
         [Tooltip("Bomb Detonation Timer"),SerializeField] private float countdownTime = 5.0f;
+        [Tooltip("Bomb Self Destruct Timer"),SerializeField] private float destroyTime = 6.0f;
 
         private Health pHealth;
         
@@ -35,6 +36,7 @@ namespace GameScripts.ExplosionScripts
                 if(bomb == enabled)
                 {
                     Invoke(nameof(Detonate), countdownTime);
+                    Invoke(nameof(SelfDestruct), destroyTime);
                 }
         }
 
@@ -48,13 +50,14 @@ namespace GameScripts.ExplosionScripts
             {
                 other.gameObject.GetComponent<Health>().health -= 50;
                 // changes health text UI
-                other.gameObject.GetComponent<Health>().healthText.text = 
-                    other.gameObject.GetComponent<Health>().health.ToString();
+                // other.gameObject.GetComponent<Health>().healthText.text = 
+                //     other.gameObject.GetComponent<Health>().health.ToString();
                 if(other.gameObject.GetComponent<Health>().health == 0)
                 {
                     other.gameObject.GetComponent<Health>().isDead = true;
                 }
             }
+            
             
         }
 
@@ -74,6 +77,11 @@ namespace GameScripts.ExplosionScripts
                     rb.AddExplosionForce(power, explosionPos, radius, upForce, ForceMode.Impulse);
                 }
             }
+        }
+
+        void SelfDestruct()
+        {
+            NetworkServer.Destroy(bomb);
         }
     }
 }

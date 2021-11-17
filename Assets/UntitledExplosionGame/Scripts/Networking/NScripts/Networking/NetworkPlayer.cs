@@ -104,9 +104,10 @@ namespace NetworkGame.Networking
                     if(isLocalPlayer)
                     {
                         quitButton.interactable = true;
+                        Cursor.lockState = CursorLockMode.None;
+                        Cursor.visible = true;
                     }
-                    Cursor.lockState = CursorLockMode.None;
-                    Cursor.visible = true;
+                    
                     isPaused = true;
                 }
                 else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)

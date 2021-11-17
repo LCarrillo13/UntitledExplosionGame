@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7775605636186021008}
   - component: {fileID: 7775605636186021009}
   - component: {fileID: 7775605636186021038}
-  - component: {fileID: 2998586155653072425}
   - component: {fileID: -8398554878345057136}
   - component: {fileID: -2721428451370732897}
   - component: {fileID: 7296389609467675696}
+  - component: {fileID: -4899489706248085183}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -99,23 +99,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2998586155653072425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7775605636186021039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22de0dac1ab186148abb3dd5ce9ebcef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bomb: {fileID: 7775605636186021039}
-  power: 15
-  radius: 10
-  upForce: 2
-  countdownTime: 3
 --- !u!54 &-8398554878345057136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -171,3 +154,20 @@ MonoBehaviour:
   syncAngularVelocity: 1
   clearAngularVelocity: 0
   angularVelocitySensitivity: 0.1
+--- !u!114 &-4899489706248085183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7775605636186021039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c649da7cc27004abeb2dfcf2d06d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb: {fileID: 7775605636186021039}
+  power: 10
+  radius: 5
+  upForce: 2
+  countdownTime: 5

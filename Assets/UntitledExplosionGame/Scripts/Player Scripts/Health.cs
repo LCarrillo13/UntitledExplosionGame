@@ -65,6 +65,10 @@ namespace GameScripts.PlayerScripts
             {
                 // important!!!
                 healthName = health.ToString();
+                if(health < 1)
+                {
+                    Death();
+                }
                 // ^ keep
                 if(Input.GetKeyDown(KeyCode.X))
                 {
