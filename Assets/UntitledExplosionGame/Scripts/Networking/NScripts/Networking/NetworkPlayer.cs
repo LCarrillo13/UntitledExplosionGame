@@ -29,9 +29,13 @@ namespace NetworkGame.Networking
         [SerializeField] public GameObject pausePanel;
         [SerializeField] public Button quitButton;
         
+        public String maskString = "SelfPlayer";
+
+       
+        
         
 
-        private readonly SyncList<float> syncedFloats = new SyncList<float>();
+        //private readonly SyncList<float> syncedFloats = new SyncList<float>();
         //private Health pHealth;
         public PlayerShoot pShoot;
 
@@ -66,7 +70,9 @@ namespace NetworkGame.Networking
                 //thisPlayer = gameObject;
                 pausePanel.SetActive(false);
                 GetComponentInChildren<Canvas>().gameObject.SetActive(true);
-            
+               
+                
+
             }
             // This will run REGARDLESS if we are the local or remote player
         }
@@ -84,6 +90,10 @@ namespace NetworkGame.Networking
             // Debug.Log(floatString, gameObject);
             
             // First determine if this function is being run on the local player
+            
+            
+            // Additional player controls
+            
             if(isLocalPlayer)
             {
                 if(Input.GetKeyDown(KeyCode.R))
@@ -97,7 +107,7 @@ namespace NetworkGame.Networking
                 {
                    // pShoot.ammoText.text = pShoot.tempAmmo.ToString();
                 }
-
+                
                 if(Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
                 {
                     pausePanel.SetActive(true);
@@ -127,6 +137,11 @@ namespace NetworkGame.Networking
                  // playerTransform.position = transform.position;
                  // playerTransform.rotation = transform.rotation;
              } 
+        }
+
+        void Pause()
+        {
+            //
         }
 
         [Command]
@@ -215,8 +230,8 @@ namespace NetworkGame.Networking
         // This runs when the server starts... ON the server on all clients
         public override void OnStartServer()
         {
-            for(int i = 0; i < 10; i++)
-                syncedFloats.Add(Random.Range(0, 11));
+            // for(int i = 0; i < 10; i++)
+            //     syncedFloats.Add(Random.Range(0, 11));
         }
         
         public void StartMatch()
