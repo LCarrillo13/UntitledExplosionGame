@@ -27,9 +27,13 @@ namespace NetworkGame.Networking
         [SerializeField] private bool isPaused;
         [Header("Pause Settings")]
         [SerializeField] public GameObject pausePanel;
-        [SerializeField] public Button quitButton;
+
+        [SerializeField] public GameObject inGameUI;
+        //[SerializeField] public Button quitButton;
         
+        [Header("Player Rendering Settings")]
         public String maskString = "SelfPlayer";
+        private bool hasMatchStarted;
 
        
         
@@ -107,26 +111,26 @@ namespace NetworkGame.Networking
                 {
                    // pShoot.ammoText.text = pShoot.tempAmmo.ToString();
                 }
-                
-                if(Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
+
+                if(hasMatchStarted)
                 {
-                    pausePanel.SetActive(true);
-                    if(isLocalPlayer)
+                    if(Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
                     {
-                        quitButton.interactable = true;
-                        Cursor.lockState = CursorLockMode.None;
-                        Cursor.visible = true;
+                        pausePanel.SetActive(true);
+                        inGameUI.SetActive(false);
+                            Cursor.lockState = CursorLockMode.None;
+                            Cursor.visible = true;
+
+                            isPaused = true;
                     }
-                    
-                    isPaused = true;
+                    else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
+                    {
+                        pausePanel.SetActive(false);
+                        isPaused = false;
+                        inGameUI.SetActive(true);
+                    }
                 }
-                else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
-                {
-                    pausePanel.SetActive(false);
-                    isPaused = false;
-                }
-                
-                
+
             }
         }
 
@@ -239,6 +243,8 @@ namespace NetworkGame.Networking
             if(isLocalPlayer)
             {
                 CmdStartMatch();
+                hasMatchStarted = true;
+                isPaused = false;
             }
         }
         
