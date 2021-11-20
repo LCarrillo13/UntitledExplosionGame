@@ -167,7 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 7775605636186021039}
-  power: 10
+  power: 16
   radius: 5
   upForce: 2
   countdownTime: 5
+  destroyTime: 6

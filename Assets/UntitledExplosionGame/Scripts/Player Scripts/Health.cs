@@ -31,6 +31,7 @@ namespace GameScripts.PlayerScripts
         //[SerializeField] public Canvas deathCanvas;
         //public GameObject deathPanel;
         private PlayerShoot pShoot;
+        public bool isRespawning;
         
 
 
@@ -216,6 +217,8 @@ namespace GameScripts.PlayerScripts
         void ResetHealth()
         {
             health = maxHealth;
+            isRespawning = true;
+            //pShoot.currentAmmo = pShoot.maxAmmo;
         }
         
         

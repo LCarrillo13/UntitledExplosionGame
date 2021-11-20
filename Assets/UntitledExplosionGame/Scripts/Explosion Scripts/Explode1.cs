@@ -52,10 +52,10 @@ namespace GameScripts.ExplosionScripts
                 // changes health text UI
                 // other.gameObject.GetComponent<Health>().healthText.text = 
                 //     other.gameObject.GetComponent<Health>().health.ToString();
-                if(other.gameObject.GetComponent<Health>().health == 0)
-                {
-                    other.gameObject.GetComponent<Health>().isDead = true;
-                }
+                // if(other.gameObject.GetComponent<Health>().health == 0)
+                // {
+                //     other.gameObject.GetComponent<Health>().isDead = true;
+                // }
             }
             
             

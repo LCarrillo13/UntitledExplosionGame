@@ -28,6 +28,8 @@ namespace GameScripts.PlayerScripts
         [Header("Animations")] [SerializeField] public Animator playerAnim;
 
         private static readonly int isShooting = Animator.StringToHash("IsShooting");
+
+        public Health pHealth;
         // HUD Ammo Text
     //[SerializeField] public Text ammoText;
        
@@ -59,6 +61,12 @@ namespace GameScripts.PlayerScripts
                 {
                     CmdReload();
                     //ammoText.text = tempAmmo.ToString();
+                }
+
+                if(GetComponent<Health>().isRespawning)
+                {
+                    CmdReload();
+                    GetComponent<Health>().isRespawning = false;
                 }
                 
             }
