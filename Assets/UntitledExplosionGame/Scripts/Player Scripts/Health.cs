@@ -71,15 +71,15 @@ namespace GameScripts.PlayerScripts
                     Death();
                 }
                 // ^ keep
-                if(Input.GetKeyDown(KeyCode.X))
-                {
-                    Death();
-                }
-
-                if(Input.GetKeyDown(KeyCode.Z))
-                {
-                    health -= 10;
-                }
+                // if(Input.GetKeyDown(KeyCode.X))
+                // {
+                //     Death();
+                // }
+                //
+                // if(Input.GetKeyDown(KeyCode.Z))
+                // {
+                //     health -= 10;
+                // }
             }
         }
 

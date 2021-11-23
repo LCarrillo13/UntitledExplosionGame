@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4530abdb-09b5-4e23-8f91-7b66ee7c3f2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UntitledExplosionGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Prefabs/Bomb.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/LevelMat1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/LevelMat1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/PillarMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Resources/Materials/PillarMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +55,8 @@
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/Networking/NetworkPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Networking/NScripts/PlayerDisconnect.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/Explode1.cs" />
-      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Explosion Scripts/PlayerShoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/UntitledExplosionGame/Scripts/Player Scripts/Health.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zRG1zb6icsPmVzrJl4KQnLV5gn" />
@@ -154,6 +143,7 @@
       <workItem from="1637201164282" duration="4912000" />
       <workItem from="1637208816319" duration="2888000" />
       <workItem from="1637385525393" duration="833000" />
+      <workItem from="1637649870971" duration="629000" />
     </task>
     <servers />
   </component>
